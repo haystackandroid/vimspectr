@@ -42,7 +42,7 @@ call plug#end()
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme vimspectrHS-B
 </code></pre></div></div>
 
-<p>…where <code class="highlighter-rouge">H</code> denotes hue, <code class="highlighter-rouge">S</code> denotes the saturation curve, and <code class="highlighter-rouge">B</code> denotes background.</p>
+<p>…replacing <code class="highlighter-rouge">H</code> with hue, <code class="highlighter-rouge">S</code> with saturation curve, and <code class="highlighter-rouge">B</code> with background setting.</p>
 
 <p>For example:</p>
 
@@ -58,6 +58,7 @@ call plug#end()
       <li><code class="highlighter-rouge">wcurve</code>/<code class="highlighter-rouge">wflat</code>: versions of <code class="highlighter-rouge">curve</code> and <code class="highlighter-rouge">flat</code> in which the lightest colour is white</li>
     </ul>
   </li>
+  <li><strong>background</strong> can be <code class="highlighter-rouge">dark</code> or <code class="highlighter-rouge">light</code></li>
 </ul>
 
 <p>View the list of <a href="https://github.com/nightsense/vimspectr/tree/master/colors">theme files</a> to see all possible values for <code class="highlighter-rouge">colorscheme</code>. The greyscale options are <code class="highlighter-rouge">vimspectrgrey-dark</code> and <code class="highlighter-rouge">vimspectrgrey-light</code>.</p>
@@ -97,7 +98,7 @@ call plug#end()
 
 <h3 id="shell-configuration">shell configuration</h3>
 
-<p>This step configures the shell to load the terminal theme on startup.</p>
+<p>This step configures your shell to load a vimspectr terminal theme on startup.</p>
 
 <blockquote>
   <p>Note: this step isn’t necessary for theming terminal vim.</p>
@@ -124,6 +125,8 @@ call plug#end()
 <p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vim/plugged/vimspectr/shell/vimspectr210curve-dark</code>).</p>
 
 <h2 id="optional-steps">optional steps</h2>
+
+<p>You’re going to need the path to <code class="highlighter-rouge">vimspectr/shell</code>, which means that you’ll need to know where vimspectr is installed on your system (i.e. the path to your vim plugins). For instance, if you use vim-plug as your plugin manager, the path will be <code class="highlighter-rouge">~/.vim/plugged/vimspectr/shell/</code>. <strong>The examples below use this path; adjust as necessary for your system.</strong></p>
 
 <h3 id="dircolors">dircolors</h3>
 
@@ -180,7 +183,7 @@ call plug#end()
 <p>If you already use <a href="https://github.com/chriskempson/base16-shell">Base16 Shell</a>, you can make it aware of vimspectr themes with the following command:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash -c 'for f in ~/.vim/plugged/vimspectr/shell/*; do
-  ln -s $f $(echo $f.sh | sed "s#vim/plugged/vimspectr/shell/#config/base16-shell/scripts/base16-spectr-#")
+  ln -s $f $(echo $f.sh | sed "s#vim/plugged/vimspectr/shell/#config/base16-shell/scripts/base16-#")
 done'
 </code></pre></div></div>
 
