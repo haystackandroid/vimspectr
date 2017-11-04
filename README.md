@@ -68,23 +68,23 @@ call plug#end()
 
 <h3 id="options">options</h3>
 
-<p>Configure options by adding lines to your `vimrc’.</p>
+<p>Configure options by adding lines to your `vimrc’. Change the theme name in the variable as necessary.</p>
 
 <p>Custom <strong>statusline colour</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr_dark_CursorLineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_StatusLine  = 'red'
 </code></pre></div></div>
+
+<p>Valid statusline colours: red, orange, yellow, green, teal, blue, purple, pink.</p>
 
 <p>Disable highlighted <strong>current line number</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr_dark_CursorLineNr = 'off'
-let g:vimspectr_light_CursorLineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_CursorLineNr = 'off'
 </code></pre></div></div>
 
 <p>Disable the highlighted <strong>line number background</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr_dark_LineNr = 'off'
-let g:vimspectr_light_LineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_LineNr = 'off'
 </code></pre></div></div>
 
 <h2 id="terminal">terminal</h2>
