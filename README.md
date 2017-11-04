@@ -14,6 +14,60 @@
 
 <p>Additionally, any accent colour can be assigned to the <strong>statusline</strong>.</p>
 
+<p>Sample theme configurations, along with their <code class="highlighter-rouge">vimrc</code> settings:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">theme nickname</th>
+      <th style="text-align: center">dark</th>
+      <th style="text-align: center">light</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">“simplify, simplify (greyscale)”</td>
+      <td style="text-align: center"><img src="/img/screenshot-simplifysimplify-dark.png" alt="screenshot of the simplifysimplify-dark vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-dark</code></td>
+      <td style="text-align: center"><img src="/img/screenshot-simplifysimplify-light.png" alt="screenshot of the simplifysimplify-light vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“carbonized”</td>
+      <td style="text-align: center"><img src="/img/screenshot-carbonized-dark.png" alt="screenshot of the carbonized-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="72" /><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“forgotten”</td>
+      <td style="text-align: center"><img src="/img/screenshot-forgotten-dark.png" alt="screenshot of the forgotten-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="72" /><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“nemo”</td>
+      <td style="text-align: center"><img src="/img/screenshot-nemo-dark.png" alt="screenshot of the nemo-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-nemo-light.png" alt="screenshot of the nemo-light vim theme" width="72" /><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“office”</td>
+      <td style="text-align: center"><img src="/img/screenshot-office-dark.png" alt="screenshot of the office-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-office-light.png" alt="screenshot of the office-light vim theme" width="72" /><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“seagrey”</td>
+      <td style="text-align: center"><img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="72" /><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“strawberry”</td>
+      <td style="text-align: center"><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="72" /><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">“wonka”</td>
+      <td style="text-align: center"><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="72" /><br /></td>
+      <td style="text-align: center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="72" /><br /></td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="setup">setup</h2>
 
 <h3 id="installation">installation</h3>
