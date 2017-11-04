@@ -27,19 +27,13 @@
   </tbody>
 </table>
 
+<h4 id="carbonized">carbonized</h4>
+
 <table>
-  <thead>
-    <tr>
-      <th style="text-align: center">theme nickname</th>
-      <th style="text-align: center">dark</th>
-      <th style="text-align: center">light</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">“simplify, simplify”<br />(greyscale theme)</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
+      <td><img src="/img/screenshot-carbonized-dark.png" alt="screenshot of the carbonized-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_dark_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code></td>
+      <td><img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_light_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></td>
     </tr>
   </tbody>
 </table>
@@ -48,8 +42,8 @@
   <tbody>
     <tr>
       <td>“carbonized”</td>
-      <td><img src="/img/screenshot-carbonized-dark.png" alt="screenshot of the carbonized-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_dark_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code></td>
-      <td><img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_light_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>“forgotten”</td>
