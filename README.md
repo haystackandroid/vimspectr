@@ -143,7 +143,11 @@ call plug#end()
 </code></pre></div></div>
 
 <ul>
-  <li><strong>hue</strong> can be any 30° interval from 0° to 330°</li>
+  <li><strong>hue</strong> can be any 30° interval from 0° to 330°
+    <ul>
+      <li><code class="highlighter-rouge">0</code> is pure red, <code class="highlighter-rouge">120</code> is pure green, <code class="highlighter-rouge">240</code> is pure blue</li>
+    </ul>
+  </li>
   <li><strong>saturation curve</strong>, which refers to the saturation levels of a theme’s base colours, can take one of four values:
     <ul>
       <li><code class="highlighter-rouge">curve</code>: saturation rises as base colours grow darker</li>
