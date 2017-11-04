@@ -60,7 +60,7 @@ call plug#end()
   </li>
 </ul>
 
-<p>View the list of <a href="https://github.com/nightsense/vimspectr/tree/master/colors">theme files</a> to see all possible values for <code class="highlighter-rouge">colorscheme</code>. The greyscale options are <code class="highlighter-rouge">vimspectrgrey-dark</code>/<code class="highlighter-rouge">vimspectrgrey-light</code>.</p>
+<p>View the list of <a href="https://github.com/nightsense/vimspectr/tree/master/colors">theme files</a> to see all possible values for <code class="highlighter-rouge">colorscheme</code>. The greyscale options are <code class="highlighter-rouge">vimspectrgrey-dark</code> and <code class="highlighter-rouge">vimspectrgrey-light</code>.</p>
 
 <blockquote>
   <p>To assign themes to specific intervals of the day, try the <a href="https://github.com/nightsense/night-and-day">night-and-day</a> plugin.</p>
@@ -68,7 +68,7 @@ call plug#end()
 
 <h3 id="options">options</h3>
 
-<p>Configure options by adding lines to your `vimrc’. Change the theme name in the variable as necessary.</p>
+<p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. Be sure to add any such lines <strong>before</strong> the line that sets <code class="highlighter-rouge">colorscheme</code>, and to change the <strong>theme name</strong> in the variable to match the targeted theme.</p>
 
 <p>Custom <strong>statusline colour</strong>:</p>
 
