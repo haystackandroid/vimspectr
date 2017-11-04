@@ -16,6 +16,8 @@
 
 <h3 id="suggested-theme-configurations">suggested theme configurations</h3>
 
+<p><br /></p>
+
 <blockquote>
   <h4 id="simplify-simplify-greyscale-theme">simplify, simplify (greyscale theme)</h4>
 
@@ -34,6 +36,8 @@
   <p><img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_light_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></p>
 </blockquote>
 
+<p><br /></p>
+
 <blockquote>
   <h4 id="forgotten">forgotten</h4>
 
@@ -41,6 +45,8 @@
 
   <p><img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_light_StatusLine = 'blue'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-light</code></p>
 </blockquote>
+
+<p><br /></p>
 
 <blockquote>
   <h4 id="nemo">nemo</h4>
@@ -50,6 +56,8 @@
   <p><img src="/img/screenshot-nemo-light.png" alt="screenshot of the nemo-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-light</code></p>
 </blockquote>
 
+<p><br /></p>
+
 <blockquote>
   <h4 id="office">office</h4>
 
@@ -57,6 +65,8 @@
 
   <p><img src="/img/screenshot-office-light.png" alt="screenshot of the office-light vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></p>
 </blockquote>
+
+<p><br /></p>
 
 <blockquote>
   <h4 id="seagrey">seagrey</h4>
@@ -66,6 +76,8 @@
   <p><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-light</code></p>
 </blockquote>
 
+<p><br /></p>
+
 <blockquote>
   <h4 id="strawberry">strawberry</h4>
 
@@ -73,6 +85,8 @@
 
   <p><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_light_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-light</code></p>
 </blockquote>
+
+<p><br /></p>
 
 <blockquote>
   <h4 id="wonka">wonka</h4>
