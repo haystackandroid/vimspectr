@@ -104,7 +104,7 @@ call plug#end()
   <p>Note: this step isn’t necessary for theming terminal vim.</p>
 </blockquote>
 
-<p>You’re going to need the path to <code class="highlighter-rouge">vimspectr/shell</code>, which means that you’ll need to know where vimspectr is installed on your system (i.e. the path to your vim plugins). For instance, if you use vim-plug as your plugin manager, the path will be <code class="highlighter-rouge">~/.vim/plugged/vimspectr/shell/</code>. <strong>The examples below use this path; adjust as necessary for your system.</strong></p>
+<p><strong>The examples below use the vim-plug path to <code class="highlighter-rouge">vimspectr/shell</code>; if you don’t use vim-plug for plugin management, adjust the path to reflect the location of vimspectr your system.</strong></p>
 
 <p><strong>bash/zsh</strong>: add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>…</p>
 
@@ -126,7 +126,7 @@ call plug#end()
 
 <h2 id="optional-steps">optional steps</h2>
 
-<p>You’re going to need the path to <code class="highlighter-rouge">vimspectr/shell</code>, which means that you’ll need to know where vimspectr is installed on your system (i.e. the path to your vim plugins). For instance, if you use vim-plug as your plugin manager, the path will be <code class="highlighter-rouge">~/.vim/plugged/vimspectr/shell/</code>. <strong>The examples below use this path; adjust as necessary for your system.</strong></p>
+<p><strong>The examples below use the vim-plug path to <code class="highlighter-rouge">vimspectr/dircolors</code>; if you don’t use vim-plug for plugin management, adjust the path to reflect the location of vimspectr your system.</strong></p>
 
 <h3 id="dircolors">dircolors</h3>
 
@@ -173,12 +173,16 @@ call plug#end()
 
 <h3 id="fish-shell-theme">fish shell theme</h3>
 
+<p><strong>The example below uses the vim-plug path to <code class="highlighter-rouge">vimspectr/fish</code>; if you don’t use vim-plug for plugin management, adjust the path to reflect the location of vimspectr your system.</strong></p>
+
 <p>The custom nightshell <strong>fish</strong> theme can be activated by adding the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source ~/.vim/plugged/vimspectr/fish
 </code></pre></div></div>
 
 <h3 id="base16-shell-integration">base16-shell integration</h3>
+
+<p><strong>The example below uses the vim-plug path to <code class="highlighter-rouge">vimspectr/shell</code>; if you don’t use vim-plug for plugin management, adjust the path to reflect the location of vimspectr your system.</strong></p>
 
 <p>If you already use <a href="https://github.com/chriskempson/base16-shell">Base16 Shell</a>, you can make it aware of vimspectr themes with the following command:</p>
 
