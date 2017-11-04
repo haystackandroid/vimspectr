@@ -148,7 +148,7 @@ call plug#end()
     <ul>
       <li><code class="highlighter-rouge">curve</code>: saturation rises as base colours grow darker</li>
       <li><code class="highlighter-rouge">flat</code>: saturation is static across base colours</li>
-      <li><code class="highlighter-rouge">wcurve</code>/<code class="highlighter-rouge">wflat</code>: versions of <code class="highlighter-rouge">curve</code> and <code class="highlighter-rouge">flat</code> in which the lightest colour is white</li>
+      <li><code class="highlighter-rouge">wcurve</code> or <code class="highlighter-rouge">wflat</code>: variations of <code class="highlighter-rouge">curve</code> and <code class="highlighter-rouge">flat</code> in which the lightest colour is white (instead of tinted)</li>
     </ul>
   </li>
   <li><strong>background</strong> can be <code class="highlighter-rouge">dark</code> or <code class="highlighter-rouge">light</code></li>
