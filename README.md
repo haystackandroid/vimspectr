@@ -16,8 +16,6 @@
 
 <h3 id="suggested-theme-configurations">suggested theme configurations</h3>
 
-<p><br /></p>
-
 <blockquote>
   <h4 id="simplify-simplify-greyscale-theme">simplify, simplify (greyscale theme)</h4>
 
@@ -95,6 +93,8 @@
 
   <p><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-light</code></p>
 </blockquote>
+
+<p><br /></p>
 
 <h2 id="setup">setup</h2>
 
