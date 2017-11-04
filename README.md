@@ -6,7 +6,7 @@
   <li>12 <strong>hue-based theme groups</strong>, one for each 1/12 rotation (30°) of the colour wheel</li>
   <li>4 themes per group, each with a distinct <strong>saturation curve</strong>
     <ul>
-      <li>a <strong>greyscale</strong> (i.e. saturation-free) theme is also provided</li>
+      <li>plus a <strong>greyscale</strong> (i.e. saturation-free) theme</li>
     </ul>
   </li>
   <li><strong>light and dark</strong> versions of each theme</li>
