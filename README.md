@@ -20,7 +20,7 @@
   <h4 id="simplify-simplify-greyscale-theme">simplify, simplify (greyscale theme)</h4>
 
   <p><img src="/img/screenshot-simplifysimplify-dark.png" alt="screenshot of the simplifysimplify-dark vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-dark</code>
-<br />
+<br /><br />
 <img src="/img/screenshot-simplifysimplify-light.png" alt="screenshot of the simplifysimplify-light vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-light</code></p>
 </blockquote>
 
