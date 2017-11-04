@@ -43,9 +43,9 @@
 <blockquote>
   <h3 id="forgotten">forgotten</h3>
 
-  <p><img src="/img/screenshot-forgotten-dark.png" alt="screenshot of the forgotten-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_dark_StatusLine = 'red'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-dark</code>
+  <p><img src="/img/screenshot-forgotten-dark.png" alt="screenshot of the forgotten-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210curve_dark_StatusLine = 'red'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-dark</code>
 <br /><br /><br />
-<img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_light_StatusLine = 'blue'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-light</code></p>
+<img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210curve_light_StatusLine = 'blue'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-light</code></p>
 </blockquote>
 
 <p><br /></p>
