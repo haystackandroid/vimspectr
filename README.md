@@ -16,6 +16,17 @@
 
 <h3 id="suggested-theme-configurations">suggested theme configurations</h3>
 
+<h4 id="simplify-simplify-greyscale-theme">simplify, simplify (greyscale theme)</h4>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/img/screenshot-simplifysimplify-dark.png" alt="screenshot of the simplifysimplify-dark vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-dark</code></td>
+      <td><img src="/img/screenshot-simplifysimplify-light.png" alt="screenshot of the simplifysimplify-light vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-light</code></td>
+    </tr>
+  </tbody>
+</table>
+
 <table>
   <thead>
     <tr>
@@ -27,43 +38,48 @@
   <tbody>
     <tr>
       <td style="text-align: center">“simplify, simplify”<br />(greyscale theme)</td>
-      <td style="text-align: center"><img src="/img/screenshot-simplifysimplify-dark.png" alt="screenshot of the simplifysimplify-dark vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-simplifysimplify-light.png" alt="screenshot of the simplifysimplify-light vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-light</code></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>“carbonized”</td>
+      <td><img src="/img/screenshot-carbonized-dark.png" alt="screenshot of the carbonized-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_dark_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code></td>
+      <td><img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_light_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center">“carbonized”</td>
-      <td style="text-align: center"><img src="/img/screenshot-carbonized-dark.png" alt="screenshot of the carbonized-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_dark_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_light_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></td>
+      <td>“forgotten”</td>
+      <td><img src="/img/screenshot-forgotten-dark.png" alt="screenshot of the forgotten-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_dark_StatusLine = 'red'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-dark</code></td>
+      <td><img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_light_StatusLine = 'blue'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center">“forgotten”</td>
-      <td style="text-align: center"><img src="/img/screenshot-forgotten-dark.png" alt="screenshot of the forgotten-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_dark_StatusLine = 'red'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr210flat_light_StatusLine = 'blue'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-light</code></td>
+      <td>“nemo”</td>
+      <td><img src="/img/screenshot-nemo-dark.png" alt="screenshot of the nemo-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_dark_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-dark</code></td>
+      <td><img src="/img/screenshot-nemo-light.png" alt="screenshot of the nemo-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center">“nemo”</td>
-      <td style="text-align: center"><img src="/img/screenshot-nemo-dark.png" alt="screenshot of the nemo-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_dark_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-nemo-light.png" alt="screenshot of the nemo-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-light</code></td>
+      <td>“office”</td>
+      <td><img src="/img/screenshot-office-dark.png" alt="screenshot of the office-dark vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code></td>
+      <td><img src="/img/screenshot-office-light.png" alt="screenshot of the office-light vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center">“office”</td>
-      <td style="text-align: center"><img src="/img/screenshot-office-dark.png" alt="screenshot of the office-dark vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-office-light.png" alt="screenshot of the office-light vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></td>
+      <td>“seagrey”</td>
+      <td><img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-dark</code></td>
+      <td><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center">“seagrey”</td>
-      <td style="text-align: center"><img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="72" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-light</code></td>
+      <td>“strawberry”</td>
+      <td><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_dark_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-dark</code></td>
+      <td><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_light_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center">“strawberry”</td>
-      <td style="text-align: center"><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_dark_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_light_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-light</code></td>
-    </tr>
-    <tr>
-      <td style="text-align: center">“wonka”</td>
-      <td style="text-align: center"><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_dark_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-dark</code></td>
-      <td style="text-align: center"><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-light</code></td>
+      <td>“wonka”</td>
+      <td><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_dark_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-dark</code></td>
+      <td><img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="72" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-light</code></td>
     </tr>
   </tbody>
 </table>
