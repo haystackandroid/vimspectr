@@ -148,7 +148,7 @@ call plug#end()
       <li><code class="highlighter-rouge">0</code> is pure red, <code class="highlighter-rouge">120</code> is pure green, <code class="highlighter-rouge">240</code> is pure blue</li>
     </ul>
   </li>
-  <li><strong>saturation curve</strong>, which refers to the saturation levels of a theme’s base colours, can take one of four values:
+  <li><strong>saturation curve</strong>, which refers to the saturation levels of a theme’s base colours, can take one of four values
     <ul>
       <li><code class="highlighter-rouge">curve</code>: saturation rises as base colours grow darker</li>
       <li><code class="highlighter-rouge">flat</code>: saturation is static across base colours</li>
@@ -166,11 +166,13 @@ call plug#end()
 
 <h3 id="options">options</h3>
 
-<p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. Be sure to add any such lines <strong>before</strong> the line that sets <code class="highlighter-rouge">colorscheme</code>, and to change the <strong>theme name</strong> in the variable to match the targeted theme.</p>
+<p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. Insert these lines <strong>before</strong> the line that sets <code class="highlighter-rouge">colorscheme</code>.</p>
+
+<p>Each line assigns a value to a variable. Be sure to change the theme name in the variable to match the targeted theme.</p>
 
 <p>Custom <strong>statusline colour</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_StatusLine  = 'red'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_StatusLine = 'red'
 </code></pre></div></div>
 
 <p>Valid statusline colours: red, orange, yellow, green, teal, blue, purple, pink.</p>
