@@ -24,6 +24,8 @@
   <p><img src="/img/screenshot-simplifysimplify-light.png" alt="screenshot of the simplifysimplify-light vim theme" width="72" /><br /><code class="highlighter-rouge">vimspectrgrey-light</code></p>
 </blockquote>
 
+<p><br /></p>
+
 <blockquote>
   <h4 id="carbonized">carbonized</h4>
 
