@@ -14,7 +14,7 @@
 
 <p>Additionally, any accent colour can be assigned to the <strong>statusline</strong>.</p>
 
-<h3 id="suggested-theme-configurations">suggested theme configurations</h3>
+<p>Here are some example configurations, complete with theme nicknames and vimrc settings.</p>
 
 <blockquote>
   <h3 id="simplify-simplify-greyscale-theme">simplify, simplify (greyscale theme)</h3>
