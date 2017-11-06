@@ -128,6 +128,11 @@ call plug#end()
 
 <p>Then restart vim and run <code class="highlighter-rouge">PlugUpdate</code> (from the vim command line).</p>
 
+<p>Finally, if you want vimspectr to work in the <strong>terminal</strong> (for the shell and/or terminal vim), create a symlink at <code class="highlighter-rouge">~/.vimspectr-shell</code> pointing to your <code class="highlighter-rouge">vimspectr/shell</code> directory. The exact path to this directory will vary depending on your plugin helper. For vim-plug users, the command is:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ln -s ~/.vim/plugged/vimspectr/shell ~/.vimspectr-shell
+</code></pre></div></div>
+
 <h3 id="activation">activation</h3>
 
 <p>To activate a vimspectr theme, add the following line to your <code class="highlighter-rouge">vimrc</code>:</p>
@@ -197,20 +202,18 @@ call plug#end()
 
 <h3 id="shell-configuration">shell configuration</h3>
 
-<p>This step configures your shell to load a vimspectr terminal theme on startup.</p>
+<p>This step configures your shell to load a vimspectr terminal theme on startup. Note that this step is not required for terminal vim.</p>
 
 <blockquote>
-  <p>Note: this step isn’t necessary for theming terminal vim.</p>
+  <p>Don’t forget to enable vimspectr terminal support by <a href="https://github.com/nightsense/vimspectr#installation">creating the required symlink</a>.</p>
 </blockquote>
-
-<p><strong>The examples below use the vim-plug path to <code class="highlighter-rouge">vimspectr/shell</code>; if you don’t use vim-plug for plugin management, adjust the path to match the location of vimspectr on your system.</strong></p>
 
 <p><strong>bash/zsh</strong>: add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>…</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ -n "$PS1" ] &amp;&amp; sh ~/.vim/plugged/vimspectr/shell/THEME
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ -n "$PS1" ] &amp;&amp; sh ~/.vimspectr-shell/THEME
 </code></pre></div></div>
 
-<p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vim/plugged/vimspectr/shell/vimspectr210curve-dark</code>).</p>
+<p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vimspectr-shell/vimspectr210curve-dark</code>).</p>
 
 <blockquote>
   <p>On <a href="http://hayne.net/MacDev/Notes/unixFAQ.html#shellStartup">macOS</a>, where <code class="highlighter-rouge">~/.bashrc</code> is not sourced automatically, you can add this line to <code class="highlighter-rouge">~/.bash_profile</code> instead.</p>
@@ -218,27 +221,29 @@ call plug#end()
 
 <p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if status --is-interactive; sh ~/.vim/plugged/vimspectr/shell/THEME; end
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if status --is-interactive; sh ~/.vimspectr-shell/THEME; end
 </code></pre></div></div>
 
-<p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vim/plugged/vimspectr/shell/vimspectr210curve-dark</code>).</p>
+<p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vimspectr-shell/vimspectr210curve-dark</code>).</p>
 
 <h2 id="optional-steps">optional steps</h2>
 
-<p><strong>The examples below use the vim-plug path to <code class="highlighter-rouge">vimspectr/dircolors</code>; if you don’t use vim-plug for plugin management, adjust the path to match the location of vimspectr on your system.</strong></p>
-
 <h3 id="dircolors">dircolors</h3>
+
+<blockquote>
+  <p>Don’t forget to enable vimspectr terminal support by <a href="https://github.com/nightsense/vimspectr#installation">creating the required symlink</a>.</p>
+</blockquote>
 
 <p><code class="highlighter-rouge">dircolors</code> is basically a theme for the <code class="highlighter-rouge">ls</code> command, defining the colours used to distinguish filetypes. To activate the vimspectr version of <code class="highlighter-rouge">dircolors</code>:</p>
 
 <p><strong>bash/zsh</strong>: add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eval `dircolors ~/.vim/plugged/vimspectr/dircolors`
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eval `dircolors ~/.vimspectr-shell/dircolors`
 </code></pre></div></div>
 
 <p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eval (dircolors -c ~/.vim/plugged/vimspectr/dircolors)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eval (dircolors -c ~/.vimspectr-shell/dircolors)
 </code></pre></div></div>
 
 <blockquote>
@@ -272,27 +277,31 @@ call plug#end()
 
 <h3 id="fish-shell-theme">fish shell theme</h3>
 
-<p><strong>The example below uses the vim-plug path to <code class="highlighter-rouge">vimspectr/fish</code>; if you don’t use vim-plug for plugin management, adjust the path to match the location of vimspectr on your system.</strong></p>
+<blockquote>
+  <p>Don’t forget to enable vimspectr terminal support by <a href="https://github.com/nightsense/vimspectr#installation">creating the required symlink</a>.</p>
+</blockquote>
 
 <p>The custom nightshell <strong>fish</strong> theme can be activated by adding the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source ~/.vim/plugged/vimspectr/fish
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source ~/.vimspectr-shell/fish
 </code></pre></div></div>
 
 <h3 id="base16-shell-integration">base16-shell integration</h3>
 
-<p><strong>The example below uses the vim-plug path to <code class="highlighter-rouge">vimspectr/shell</code>; if you don’t use vim-plug for plugin management, adjust the path to match the location of vimspectr on your system.</strong></p>
+<blockquote>
+  <p>Don’t forget to enable vimspectr terminal support by <a href="https://github.com/nightsense/vimspectr#installation">creating the required symlink</a>.</p>
+</blockquote>
 
 <p>If you already use <a href="https://github.com/chriskempson/base16-shell">Base16 Shell</a>, you can make it aware of vimspectr themes with the following command:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash -c 'for f in ~/.vim/plugged/vimspectr/shell/*; do
-  ln -s $f $(echo $f.sh | sed "s#vim/plugged/vimspectr/shell/#config/base16-shell/scripts/base16-#")
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash -c 'for f in ~/.vimspectr-shell/*-*; do
+  ln -s $f $(echo $f.sh | sed "s#vimspectr-shell/#config/base16-shell/scripts/base16-#")
 done'
 </code></pre></div></div>
 
 <p>To undo the above command:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash -c 'for f in $(find ~/.config/base16-shell/scripts -name "*vimspectr*"); do rm $f; done'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash -c 'for f in ~/.config/base16-shell/scripts/*vimspectr*; do rm $f; done'
 </code></pre></div></div>
 
 <h2 id="troubleshooting">troubleshooting</h2>

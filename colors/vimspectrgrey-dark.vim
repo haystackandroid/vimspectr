@@ -67,9 +67,9 @@ endif
 "=== OTHER PREPARATION ========================================================
 
 " run theme-setting script if using terminal vim
-if filereadable(expand('~/.nightshell/vimspectrgrey-dark'))
+if filereadable(expand('~/.vimspectr-shell/vimspectrgrey-dark'))
   if !has('gui_running')
-    execute 'silent !/bin/sh $HOME/.nightshell/vimspectrgrey-dark'
+    execute 'silent !/bin/sh $HOME/.vimspectr-shell/vimspectrgrey-dark'
   endif
 endif
 
@@ -79,7 +79,7 @@ syntax reset
 
 " set new theme
 set background=dark
-augroup NightsenseThemeSet
+augroup VimspectrThemeSet
    autocmd!
    autocmd CursorMoved * execute 'if !exists("colors_name") |
          \ colorscheme vimspectrgrey-dark | endif'
@@ -128,6 +128,7 @@ cal <sid>h('NonText'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('ColorColumn'      , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('CursorColumn'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('CursorLine'       , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
+cal <sid>h('MatchParen'       , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('QuickFixLine'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('StatusLineNC'     , s:g5 , s:g1 , s:t5 , s:t1 , 'none'      , ''  )
 cal <sid>h('StatusLineTermNC' , s:g5 , s:g1 , s:t5 , s:t1 , 'none'      , ''  )
@@ -143,7 +144,6 @@ cal <sid>h('TabLine'          , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('VisualNOS'        , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 
 " strongly highlighted background
-cal <sid>h('MatchParen'       , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Pmenu'            , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Visual'           , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 
