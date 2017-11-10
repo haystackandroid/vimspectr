@@ -10,12 +10,12 @@
 " GUI colours
 let s:g0 = 'fff4ea'
 let s:g1 = 'ebe1d7'
-let s:g2 = 'a19a93'
+let s:g2 = '9c958f'
 let s:g3 = '8c8681'
-let s:g4 = '78736e'
+let s:g4 = '75706c'
 let s:g5 = '66625e'
-let s:g6 = '33312f'
-let s:g7 = '262523'
+let s:g6 = '2e2c2a'
+let s:g7 = '21201e'
 let s:g8 = 'f5563d'
 let s:g9 = 'eb6f28'
 let s:gA = 'd4ac35'
@@ -56,11 +56,11 @@ if has('nvim')
   let g:terminal_color_8 =  '#8c8681'
   let g:terminal_color_9 =  '#eb6f28'
   let g:terminal_color_10 = '#ebe1d7'
-  let g:terminal_color_11 = '#a19a93'
-  let g:terminal_color_12 = '#78736e'
-  let g:terminal_color_13 = '#33312f'
+  let g:terminal_color_11 = '#9c958f'
+  let g:terminal_color_12 = '#75706c'
+  let g:terminal_color_13 = '#2e2c2a'
   let g:terminal_color_14 = '#d46a84'
-  let g:terminal_color_15 = '#262523'
+  let g:terminal_color_15 = '#21201e'
 endif
 
 

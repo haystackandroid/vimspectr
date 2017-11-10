@@ -16,11 +16,11 @@ if [ "${TERM%%-*}" = 'linux' ]; then
   echo -e "\e]P8818c86"
   echo -e "\e]P9eb6f28"
   echo -e "\e]PAd7ebe1"
-  echo -e "\e]PB96a39c"
-  echo -e "\e]PC707a75"
-  echo -e "\e]PD313633"
+  echo -e "\e]PB919e98"
+  echo -e "\e]PC6c7570"
+  echo -e "\e]PD2c302e"
   echo -e "\e]PEd46a84"
-  echo -e "\e]PF252927"
+  echo -e "\e]PF212422"
   echo -e "\e[H"
   echo -e "\e[2J"
   exit 0
@@ -37,11 +37,11 @@ color07="5e/66/62" # Base 05 - White
 color08="81/8c/86" # Base 03 - Bright Black
 color09="eb/6f/28" # Base 09
 color10="d7/eb/e1" # Base 01
-color11="96/a3/9c" # Base 02
-color12="70/7a/75" # Base 04
-color13="31/36/33" # Base 06
+color11="91/9e/98" # Base 02
+color12="6c/75/70" # Base 04
+color13="2c/30/2e" # Base 06
 color14="d4/6a/84" # Base 0F
-color15="25/29/27" # Base 07 - Bright White
+color15="21/24/22" # Base 07 - Bright White
 color_foreground="5e/66/62" # Base 05
 color_background="ea/ff/f4" # Base 00
 
@@ -87,7 +87,7 @@ if [ -n "$ITERM_SESSION_ID" ]; then
   printf $printf_template_custom Ph eafff4 # background
   printf $printf_template_custom Pi 5e6662 # bold color
   printf $printf_template_custom Pj 818c86 # selection color
-  printf $printf_template_custom Pk 313633 # selected text color
+  printf $printf_template_custom Pk 2c302e # selected text color
   printf $printf_template_custom Pl  # cursor
   printf $printf_template_custom Pm eafff4 # cursor text
 else
