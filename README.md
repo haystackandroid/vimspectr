@@ -178,6 +178,26 @@ call plug#end()
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_StatusLine = 'red'
 </code></pre></div></div>
 
+<p>Use <strong>muted accent colours</strong>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_MuteAccents = 'on'
+</code></pre></div></div>
+
+<p>Set <strong>muted statusline</strong>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_MuteStatusLine = 'on'
+</code></pre></div></div>
+
+<p>Set <strong>muted line numbers</strong>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_MuteLineNr = 'on'
+</code></pre></div></div>
+
+<p>Use <strong>italicized comments</strong>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_ItalicComment = 'on'
+</code></pre></div></div>
+
 <p>Valid statusline colours: red, orange, yellow, green, teal, blue, purple, pink.</p>
 
 <p>Disable highlighted <strong>current line number</strong>:</p>

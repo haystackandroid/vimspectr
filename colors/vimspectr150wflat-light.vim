@@ -300,7 +300,7 @@ cal <sid>h('LineNr'           , s:g3 , s:g1 , s:t3 , s:t1 , 'none'      , ''  )
 endif
 endif
 
-" mute StatueLine
+" mute StatusLine
 if exists('g:vimspectr150wflat_light_MuteStatusLine')
 if g:vimspectr150wflat_light_MuteStatusLine == 'on'
 cal <sid>h('StatusLine'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
