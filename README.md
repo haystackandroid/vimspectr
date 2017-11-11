@@ -173,7 +173,7 @@ call plug#end()
 
 <p>Each line assigns a value to a variable. Be sure to change the theme name in the variable to match the targeted theme.</p>
 
-<p>Custom <strong>statusline colour</strong>:</p>
+<p>Custom <strong>statusline colour</strong> (red, orange, yellow, green, teal, blue, purple, pink):</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_StatusLine = 'red'
 </code></pre></div></div>
@@ -197,8 +197,6 @@ call plug#end()
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_ItalicComment = 'on'
 </code></pre></div></div>
-
-<p>Valid statusline colours: red, orange, yellow, green, teal, blue, purple, pink.</p>
 
 <p>Disable highlighted <strong>current line number</strong>:</p>
 

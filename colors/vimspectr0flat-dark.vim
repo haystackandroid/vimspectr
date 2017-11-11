@@ -8,12 +8,12 @@
 "=== SET COLOUR VARIABLES =====================================================
 
 " GUI colours
-let s:g0 = '171515'
-let s:g1 = '292525'
+let s:g0 = '141313'
+let s:g1 = '262323'
 let s:g2 = '635b5b'
-let s:g3 = '706767'
+let s:g3 = '6e6565'
 let s:g4 = '8c8181'
-let s:g5 = '998c8c'
+let s:g5 = '968a8a'
 let s:g6 = 'ebd7d7'
 let s:g7 = 'ffeaea'
 let s:g8 = 'bf5858'
@@ -59,17 +59,17 @@ let s:tF = '14'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#171515'
+  let g:terminal_color_0 =  '#141313'
   let g:terminal_color_1 =  '#bf5858'
   let g:terminal_color_2 =  '#508a50'
   let g:terminal_color_3 =  '#ab8e38'
   let g:terminal_color_4 =  '#557b9e'
   let g:terminal_color_5 =  '#8b6a9e'
   let g:terminal_color_6 =  '#458a8a'
-  let g:terminal_color_7 =  '#998c8c'
-  let g:terminal_color_8 =  '#706767'
+  let g:terminal_color_7 =  '#968a8a'
+  let g:terminal_color_8 =  '#6e6565'
   let g:terminal_color_9 =  '#b56f45'
-  let g:terminal_color_10 = '#292525'
+  let g:terminal_color_10 = '#262323'
   let g:terminal_color_11 = '#635b5b'
   let g:terminal_color_12 = '#8c8181'
   let g:terminal_color_13 = '#ebd7d7'

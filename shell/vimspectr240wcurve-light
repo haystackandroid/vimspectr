@@ -12,15 +12,15 @@ if [ "${TERM%%-*}" = 'linux' ]; then
   echo -e "\e]P44398c9"
   echo -e "\e]P5a26fbf"
   echo -e "\e]P61b9e8d"
-  echo -e "\e]P7676775"
-  echo -e "\e]P88c8c99"
+  echo -e "\e]P7656587"
+  echo -e "\e]P88d8da1"
   echo -e "\e]P9eb6f28"
   echo -e "\e]PAebebf5"
-  echo -e "\e]PB9393a1"
-  echo -e "\e]PC6d6d7d"
-  echo -e "\e]PD2a2a36"
+  echo -e "\e]PB91919e"
+  echo -e "\e]PC696985"
+  echo -e "\e]PD252538"
   echo -e "\e]PEd46a84"
-  echo -e "\e]PF1d1d29"
+  echo -e "\e]PF181829"
   echo -e "\e[H"
   echo -e "\e[2J"
   exit 0
@@ -33,16 +33,16 @@ color03="d4/ac/35" # Base 0A - Yellow
 color04="43/98/c9" # Base 0D - Blue
 color05="a2/6f/bf" # Base 0E - Magenta
 color06="1b/9e/8d" # Base 0C - Cyan
-color07="67/67/75" # Base 05 - White
-color08="8c/8c/99" # Base 03 - Bright Black
+color07="65/65/87" # Base 05 - White
+color08="8d/8d/a1" # Base 03 - Bright Black
 color09="eb/6f/28" # Base 09
 color10="eb/eb/f5" # Base 01
-color11="93/93/a1" # Base 02
-color12="6d/6d/7d" # Base 04
-color13="2a/2a/36" # Base 06
+color11="91/91/9e" # Base 02
+color12="69/69/85" # Base 04
+color13="25/25/38" # Base 06
 color14="d4/6a/84" # Base 0F
-color15="1d/1d/29" # Base 07 - Bright White
-color_foreground="67/67/75" # Base 05
+color15="18/18/29" # Base 07 - Bright White
+color_foreground="65/65/87" # Base 05
 color_background="ff/ff/ff" # Base 00
 
 if [ -n "$TMUX" ]; then
@@ -83,11 +83,11 @@ printf $printf_template 15 $color15
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  printf $printf_template_custom Pg 676775 # foreground
+  printf $printf_template_custom Pg 656587 # foreground
   printf $printf_template_custom Ph ffffff # background
-  printf $printf_template_custom Pi 676775 # bold color
-  printf $printf_template_custom Pj 8c8c99 # selection color
-  printf $printf_template_custom Pk 2a2a36 # selected text color
+  printf $printf_template_custom Pi 656587 # bold color
+  printf $printf_template_custom Pj 8d8da1 # selection color
+  printf $printf_template_custom Pk 252538 # selected text color
   printf $printf_template_custom Pl  # cursor
   printf $printf_template_custom Pm ffffff # cursor text
 else
