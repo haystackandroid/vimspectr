@@ -8,12 +8,12 @@
 "=== SET COLOUR VARIABLES =====================================================
 
 " GUI colours
-let s:g0 = '222421'
-let s:g1 = '2e302c'
+let s:g0 = '20211e'
+let s:g1 = '2c2e2a'
 let s:g2 = '62665e'
-let s:g3 = '70756c'
+let s:g3 = '6e7369'
 let s:g4 = '868c81'
-let s:g5 = '959c8f'
+let s:g5 = '93998c'
 let s:g6 = 'e1ebd7'
 let s:g7 = 'f4ffea'
 let s:g8 = 'bf5858'
@@ -24,6 +24,20 @@ let s:gC = '458a8a'
 let s:gD = '557b9e'
 let s:gE = '8b6a9e'
 let s:gF = 'ab6a7a'
+
+" muted accent colours
+if exists('g:vimspectr90flat_dark_MuteAccents')
+if g:vimspectr90flat_dark_MuteAccents == 'on'
+let s:g8 = '9e7276'
+let s:g9 = '9c7760'
+let s:gA = '8a7c55'
+let s:gB = '5b8a55'
+let s:gC = '548587'
+let s:gD = '5f8299'
+let s:gE = '86779e'
+let s:gF = '997383'
+endif
+endif
 
 " terminal colours
 let s:t0 = '00'
@@ -45,22 +59,38 @@ let s:tF = '14'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#222421'
+  let g:terminal_color_0 =  '#20211e'
   let g:terminal_color_1 =  '#bf5858'
   let g:terminal_color_2 =  '#508a50'
   let g:terminal_color_3 =  '#ab8e38'
   let g:terminal_color_4 =  '#557b9e'
   let g:terminal_color_5 =  '#8b6a9e'
   let g:terminal_color_6 =  '#458a8a'
-  let g:terminal_color_7 =  '#959c8f'
-  let g:terminal_color_8 =  '#70756c'
+  let g:terminal_color_7 =  '#93998c'
+  let g:terminal_color_8 =  '#6e7369'
   let g:terminal_color_9 =  '#b56f45'
-  let g:terminal_color_10 = '#2e302c'
+  let g:terminal_color_10 = '#2c2e2a'
   let g:terminal_color_11 = '#62665e'
   let g:terminal_color_12 = '#868c81'
   let g:terminal_color_13 = '#e1ebd7'
   let g:terminal_color_14 = '#ab6a7a'
   let g:terminal_color_15 = '#f4ffea'
+endif
+
+" muted accent colours
+if exists('g:vimspectr90flat_dark_MuteAccents')
+if g:vimspectr90flat_dark_MuteAccents == 'on'
+if has('nvim')
+  let g:terminal_color_1 =  '#9e7276'
+  let g:terminal_color_2 =  '#5b8a55'
+  let g:terminal_color_3 =  '#8a7c55'
+  let g:terminal_color_4 =  '#5f8299'
+  let g:terminal_color_5 =  '#86779e'
+  let g:terminal_color_6 =  '#548587'
+  let g:terminal_color_9 =  '#9c7760'
+  let g:terminal_color_14 = '#997383'
+endif
+endif
 endif
 
 
@@ -260,5 +290,26 @@ if exists('g:vimspectr90flat_dark_LineNr')
 if g:vimspectr90flat_dark_LineNr == 'off'
 cal <sid>h('CursorLineNr'     , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
 cal <sid>h('LineNr'           , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
+endif
+endif
+
+" mute LineNr
+if exists('g:vimspectr90flat_dark_MuteLineNr')
+if g:vimspectr90flat_dark_MuteLineNr == 'on'
+cal <sid>h('LineNr'           , s:g3 , s:g1 , s:t3 , s:t1 , 'none'      , ''  )
+endif
+endif
+
+" mute StatueLine
+if exists('g:vimspectr90flat_dark_MuteStatusLine')
+if g:vimspectr90flat_dark_MuteStatusLine == 'on'
+cal <sid>h('StatusLine'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
+endif
+endif
+
+" enable italicized comments
+if exists('g:vimspectr90flat_dark_ItalicComment')
+if g:vimspectr90flat_dark_ItalicComment == 'on'
+cal <sid>h('Comment'          , s:g3 , ''   , s:t3 , ''   , 'italic'      , ''  )
 endif
 endif

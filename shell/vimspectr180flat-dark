@@ -5,7 +5,7 @@
 
 # linux console
 if [ "${TERM%%-*}" = 'linux' ]; then
-  echo -e "\e]P0212424"
+  echo -e "\e]P01e2121"
   echo -e "\e]P1bf5858"
   echo -e "\e]P2508a50"
   echo -e "\e]P3ab8e38"
@@ -13,9 +13,9 @@ if [ "${TERM%%-*}" = 'linux' ]; then
   echo -e "\e]P58b6a9e"
   echo -e "\e]P6458a8a"
   echo -e "\e]P78f9c9c"
-  echo -e "\e]P86c7575"
+  echo -e "\e]P8697373"
   echo -e "\e]P9b56f45"
-  echo -e "\e]PA2c3030"
+  echo -e "\e]PA2a2e2e"
   echo -e "\e]PB5e6666"
   echo -e "\e]PC818c8c"
   echo -e "\e]PDd7ebeb"
@@ -26,7 +26,7 @@ if [ "${TERM%%-*}" = 'linux' ]; then
   exit 0
 fi
 
-color00="21/24/24" # Base 00 - Black
+color00="1e/21/21" # Base 00 - Black
 color01="bf/58/58" # Base 08 - Red
 color02="50/8a/50" # Base 0B - Green
 color03="ab/8e/38" # Base 0A - Yellow
@@ -34,16 +34,16 @@ color04="55/7b/9e" # Base 0D - Blue
 color05="8b/6a/9e" # Base 0E - Magenta
 color06="45/8a/8a" # Base 0C - Cyan
 color07="8f/9c/9c" # Base 05 - White
-color08="6c/75/75" # Base 03 - Bright Black
+color08="69/73/73" # Base 03 - Bright Black
 color09="b5/6f/45" # Base 09
-color10="2c/30/30" # Base 01
+color10="2a/2e/2e" # Base 01
 color11="5e/66/66" # Base 02
 color12="81/8c/8c" # Base 04
 color13="d7/eb/eb" # Base 06
 color14="ab/6a/7a" # Base 0F
 color15="ea/ff/ff" # Base 07 - Bright White
 color_foreground="8f/9c/9c" # Base 05
-color_background="21/24/24" # Base 00
+color_background="1e/21/21" # Base 00
 
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
@@ -84,12 +84,12 @@ printf $printf_template 15 $color15
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
   printf $printf_template_custom Pg 8f9c9c # foreground
-  printf $printf_template_custom Ph 212424 # background
+  printf $printf_template_custom Ph 1e2121 # background
   printf $printf_template_custom Pi 8f9c9c # bold color
-  printf $printf_template_custom Pj 6c7575 # selection color
+  printf $printf_template_custom Pj 697373 # selection color
   printf $printf_template_custom Pk d7ebeb # selected text color
   printf $printf_template_custom Pl  # cursor
-  printf $printf_template_custom Pm 212424 # cursor text
+  printf $printf_template_custom Pm 1e2121 # cursor text
 else
   printf $printf_template_var 10 $color_foreground
   printf $printf_template_var 11 $color_background

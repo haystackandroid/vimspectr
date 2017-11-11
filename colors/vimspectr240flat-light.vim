@@ -10,12 +10,12 @@
 " GUI colours
 let s:g0 = 'eaeaff'
 let s:g1 = 'd7d7eb'
-let s:g2 = '8f8f9c'
+let s:g2 = '8c8c99'
 let s:g3 = '81818c'
-let s:g4 = '696973'
+let s:g4 = '676770'
 let s:g5 = '5b5b63'
-let s:g6 = '252529'
-let s:g7 = '17171a'
+let s:g6 = '232326'
+let s:g7 = '131314'
 let s:g8 = 'f5563d'
 let s:g9 = 'eb6f28'
 let s:gA = 'd4ac35'
@@ -24,6 +24,20 @@ let s:gC = '1b9e8d'
 let s:gD = '4398c9'
 let s:gE = 'a26fbf'
 let s:gF = 'd46a84'
+
+" muted accent colours
+if exists('g:vimspectr240flat_light_MuteAccents')
+if g:vimspectr240flat_light_MuteAccents == 'on'
+let s:g8 = 'db7681'
+let s:g9 = 'd1814f'
+let s:gA = 'ad9142'
+let s:gB = '4aa840'
+let s:gC = '3fa2a6'
+let s:gD = '4e9bcf'
+let s:gE = 'a783de'
+let s:gF = 'cf7a9d'
+endif
+endif
 
 " terminal colours
 let s:t0 = '00'
@@ -56,11 +70,27 @@ if has('nvim')
   let g:terminal_color_8 =  '#81818c'
   let g:terminal_color_9 =  '#eb6f28'
   let g:terminal_color_10 = '#d7d7eb'
-  let g:terminal_color_11 = '#8f8f9c'
-  let g:terminal_color_12 = '#696973'
-  let g:terminal_color_13 = '#252529'
+  let g:terminal_color_11 = '#8c8c99'
+  let g:terminal_color_12 = '#676770'
+  let g:terminal_color_13 = '#232326'
   let g:terminal_color_14 = '#d46a84'
-  let g:terminal_color_15 = '#17171a'
+  let g:terminal_color_15 = '#131314'
+endif
+
+" muted accent colours
+if exists('g:vimspectr240flat_light_MuteAccents')
+if g:vimspectr240flat_light_MuteAccents == 'on'
+if has('nvim')
+  let g:terminal_color_1 =  '#db7681'
+  let g:terminal_color_2 =  '#4aa840'
+  let g:terminal_color_3 =  '#ad9142'
+  let g:terminal_color_4 =  '#4e9bcf'
+  let g:terminal_color_5 =  '#a783de'
+  let g:terminal_color_6 =  '#3fa2a6'
+  let g:terminal_color_9 =  '#d1814f'
+  let g:terminal_color_14 = '#cf7a9d'
+endif
+endif
 endif
 
 
@@ -260,5 +290,26 @@ if exists('g:vimspectr240flat_light_LineNr')
 if g:vimspectr240flat_light_LineNr == 'off'
 cal <sid>h('CursorLineNr'     , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
 cal <sid>h('LineNr'           , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
+endif
+endif
+
+" mute LineNr
+if exists('g:vimspectr240flat_light_MuteLineNr')
+if g:vimspectr240flat_light_MuteLineNr == 'on'
+cal <sid>h('LineNr'           , s:g3 , s:g1 , s:t3 , s:t1 , 'none'      , ''  )
+endif
+endif
+
+" mute StatueLine
+if exists('g:vimspectr240flat_light_MuteStatusLine')
+if g:vimspectr240flat_light_MuteStatusLine == 'on'
+cal <sid>h('StatusLine'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
+endif
+endif
+
+" enable italicized comments
+if exists('g:vimspectr240flat_light_ItalicComment')
+if g:vimspectr240flat_light_ItalicComment == 'on'
+cal <sid>h('Comment'          , s:g3 , ''   , s:t3 , ''   , 'italic'      , ''  )
 endif
 endif
