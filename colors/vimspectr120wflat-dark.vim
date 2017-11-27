@@ -190,7 +190,7 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 "=== SET ALERT/SYNTAX COLOURS =================================================
 
 " RED for warning elements
-cal <sid>h('DiffDelete'       , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
+cal <sid>h('DiffDelete'       , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
 cal <sid>h('diffRemoved'      , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
 cal <sid>h('Error'            , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
@@ -201,6 +201,7 @@ cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 " ORANGE for preliminary elements
 cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('diffChanged'      , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('IncSearch'        , s:g9 , s:g0 , s:t9 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
@@ -210,13 +211,12 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:gA , s:g0 , s:tA , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Search'           , s:gA , s:g0 , s:tA , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Todo'             , s:gA , s:g0 , s:tA , s:t0 , 'reverse'   , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('DiffAdd'          , s:gB , s:g0 , s:tB , s:t0 , 'reverse'   , ''  )
+cal <sid>h('DiffAdd'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('diffAdded'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
