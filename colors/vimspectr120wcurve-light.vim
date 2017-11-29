@@ -150,6 +150,7 @@ cal <sid>h('Underlined'       , s:g5 , ''   , s:t5 , ''   , 'underline' , ''  )
 " commented-out text
 cal <sid>h('Comment'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('Conceal'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
+cal <sid>h('DiffChange'       , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('EndOfBuffer'      , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('Ignore'           , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('NonText'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
@@ -166,7 +167,6 @@ cal <sid>h('TabLineFill'      , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 cal <sid>h('TermCursorNC'     , ''   , s:g1 , ''   , s:t1 , 'none'      , ''  )
 
 " muted text on highlighted background
-cal <sid>h('DiffChange'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('FoldColumn'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('Folded'           , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('SignColumn'       , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
@@ -190,8 +190,8 @@ cal <sid>h('VertSplit'        , s:g2 , s:g2 , s:t2 , s:t2 , 'none'      , ''  )
 "=== SET ALERT/SYNTAX COLOURS =================================================
 
 " RED for warning elements
-cal <sid>h('DiffDelete'       , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
-cal <sid>h('diffRemoved'      , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
+cal <sid>h('DiffDelete'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
+cal <sid>h('DiffRemoved'      , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
 cal <sid>h('Error'            , s:g8 , s:g0 , s:t8 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('ErrorMsg'         , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 cal <sid>h('SpellBad'         , ''   , ''   , s:t0 , s:t8 , 'undercurl' , s:g8)
@@ -200,8 +200,8 @@ cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 
 " ORANGE for preliminary elements
 cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
-cal <sid>h('diffChanged'      , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
-cal <sid>h('DiffText'         , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
+cal <sid>h('DiffChanged'      , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:g9 , s:g0 , s:t9 , s:t0 , 'none'      , ''  )
 cal <sid>h('IncSearch'        , s:g9 , s:g0 , s:t9 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
@@ -216,8 +216,8 @@ cal <sid>h('Todo'             , s:gA , s:g6 , s:tA , s:t6 , 'reverse'   , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('DiffAdd'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('diffAdded'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
+cal <sid>h('DiffAdd'          , s:gB , s:g0 , s:tB , s:t0 , 'none'      , ''  )
+cal <sid>h('DiffAdded'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
