@@ -150,7 +150,7 @@ cal <sid>h('Underlined'       , s:g5 , ''   , s:t5 , ''   , 'underline' , ''  )
 " commented-out text
 cal <sid>h('Comment'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('Conceal'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
-cal <sid>h('DiffChange'       , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
+cal <sid>h('DiffChange'       , s:g3 , s:g0 , s:t3 , s:t0 , 'none'      , ''  )
 cal <sid>h('EndOfBuffer'      , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('Ignore'           , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
 cal <sid>h('NonText'          , s:g3 , ''   , s:t3 , ''   , 'none'      , ''  )
