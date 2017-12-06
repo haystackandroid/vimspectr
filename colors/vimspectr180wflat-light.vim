@@ -10,12 +10,12 @@
 " GUI colours
 let s:g0 = 'ffffff'
 let s:g1 = 'e1ebeb'
-let s:g2 = '8a9696'
+let s:g2 = '838f8f'
 let s:g3 = '818c8c'
-let s:g4 = '656e6e'
+let s:g4 = '626b6b'
 let s:g5 = '5e6666'
-let s:g6 = '282b2b'
-let s:g7 = '1a1c1c'
+let s:g6 = '212424'
+let s:g7 = '131414'
 let s:g8 = 'f5563d'
 let s:g9 = 'eb6f28'
 let s:gA = 'd4ac35'
@@ -70,11 +70,11 @@ if has('nvim')
   let g:terminal_color_8 =  '#818c8c'
   let g:terminal_color_9 =  '#eb6f28'
   let g:terminal_color_10 = '#e1ebeb'
-  let g:terminal_color_11 = '#8a9696'
-  let g:terminal_color_12 = '#656e6e'
-  let g:terminal_color_13 = '#282b2b'
+  let g:terminal_color_11 = '#838f8f'
+  let g:terminal_color_12 = '#626b6b'
+  let g:terminal_color_13 = '#212424'
   let g:terminal_color_14 = '#d46a84'
-  let g:terminal_color_15 = '#1a1c1c'
+  let g:terminal_color_15 = '#131414'
 endif
 
 " muted accent colours
