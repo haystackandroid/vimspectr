@@ -296,7 +296,7 @@ done'
 
   <p>Each vimspectr theme consists of 8 theme-distinct <strong>base colours</strong> and 8 standard <strong>accent colours</strong>.</p>
 
-  <p>Base colours are determined through a combination of contrast ratios and (except for the greyscale themes) a saturation curve that rises as base colour darkens. Contrast ratios were selected such that values of the base colours in the greyscale theme would align (roughly) with 1/24 intervals. Saturation levels were also adjusted by 1/24 intervals. For accent colours, accent hues were selected at the scale of 1/48 (7.5°) colour wheel intervals, while saturations and values were selected at the scale of 1/24 (4.17%).</p>
+  <p>Base colours are determined through a combination of contrast ratios and (except for the greyscale themes) a saturation curve that rises as base colour darkens. Contrast ratios were selected such that values of the base colours in the greyscale theme would align (roughly) with 1/24 (4.17%) intervals. Saturation levels were also adjusted by 1/24 intervals. For accent colours, accent hues were selected at the scale of 1/48 (7.5°) colour wheel intervals, while saturations and values were selected at the scale of 1/24.</p>
 
   <p>The <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO 3:1 contrast standard</a> is met by nearly all text/background combinations, exceptions being made for some transient-highlighted backgrounds (e.g. cursorcolumn, cursorline)</p>
 
@@ -353,28 +353,28 @@ done'
 </table>
 
   <p><img src="http://www.colorhexa.com/f55050.png" height="24" width="42" />
-Red, the colour of alarm, is used for warning elements, including error messages, misspellings, and diff deletions.</p>
+<strong>Red</strong>, the colour of alarm, is used for warning elements, including error messages, misspellings, and diff deletions.</p>
 
   <p><img src="http://www.colorhexa.com/e06a26.png" height="24" width="42" />
-Orange, the colour of fire, can be associated with the preliminary “warmup” phase of some activity; literally, this could be the heating-up of a hearth for forging, or a stove for cooking. Orange is therefore used for preliminary elements, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
+<strong>Orange</strong>, the colour of fire, can be associated with the preliminary “warmup” phase of some activity; literally, this could be the heating-up of a hearth for forging, or a stove for cooking. Orange is therefore used for preliminary elements, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
   <p><img src="http://www.colorhexa.com/d4ac35.png" height="24" width="42" />
-Yellow, the classic highlighting colour, is applied to elements that are not warnings, yet should draw attention with high visibility. These highlighted elements include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
+<strong>Yellow</strong>, the classic highlighting colour, is applied to elements that are not warnings, yet should draw attention with high visibility. These highlighted elements include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
   <p><img src="http://www.colorhexa.com/219e21.png" height="24" width="42" />
-Green, the colour that says “go ahead, proceed with the task at hand”, is used for action elements, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
+<strong>Green</strong>, the colour that says “go ahead, proceed with the task at hand”, is used for action elements, such as statements (if/then, while/do, case…), mode indicators (insert, visual…), vim user prompts, and diff additions.</p>
 
   <p><img src="http://www.colorhexa.com/1b9e9e.png" height="24" width="42" />
-Teal is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying object types, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
+<strong>Teal</strong> is named after the “common teal”, a kind of duck, thus connecting this colour with the concept of “species”, which is a means of classifying life into very specific types. Teal is therefore used for specifying object types, such as data type (boolean, integer, string…) or storage class (static, volatile…), as well as marking mislocalized words (that is, words that are not misspelled but of the wrong type, namely a foreign locale type).</p>
 
   <p><img src="http://www.colorhexa.com/468dd4.png" height="24" width="42" />
-Blue, a colour of calm stability, is used for constants, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
+<strong>Blue</strong>, a colour of calm stability, is used for constants, which come in the form of boolean values, integers, floating-point numbers, characters, and strings.</p>
 
   <p><img src="http://www.colorhexa.com/a26fbf.png" height="24" width="42" />
-Purple, often associated with (historically) rare purple dyes produced for special works of art, is used for special text, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
+<strong>Purple</strong>, often associated with (historically) rare purple dyes produced for special works of art, is used for special text, including special characters (standalone or within syntax units), vim tags, and debugging statements. Rarely-used words are also marked, allowing the writer to consider whether such a specially uncommon word is appropriate.</p>
 
   <p><img src="http://www.colorhexa.com/d46a84.png" height="24" width="42" />
-Pink, the colour of spring blossoms, is used for object names, including the names of variables and functions. To code is to bring countless objects blossoming into life as one types their names.</p>
+<strong>Pink</strong>, the colour of spring blossoms, is used for object names, including the names of variables and functions. To code is to bring countless objects blossoming into life as one types their names.</p>
 
   <h3 id="vimspectr-dircolors-logic">vimspectr dircolors logic</h3>
 
