@@ -287,8 +287,10 @@ done'
   <li>…in <strong>tmux</strong>, try launching tmux with <code class="highlighter-rouge">tmux -2</code></li>
 </ul>
 
+<p><br /></p>
+
 <blockquote>
-  <h2 id="notes">notes</h2>
+  <h2 id="production-notes">production notes</h2>
 
   <h3 id="palette">palette</h3>
 
