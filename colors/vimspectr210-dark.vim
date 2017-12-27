@@ -26,8 +26,8 @@ let s:gE = '8b6a9e'
 let s:gF = 'ab6a7a'
 
 " muted accent colours
-if exists('g:vimspectr210_dark_MuteAccents')
-if g:vimspectr210_dark_MuteAccents == 'on'
+if exists('g:vimspectrMuteAccents')
+if g:vimspectrMuteAccents == 'on'
 let s:g8 = '9e7276'
 let s:g9 = '9c7760'
 let s:gA = '8a7c55'
@@ -78,8 +78,8 @@ if has('nvim')
 endif
 
 " muted accent colours
-if exists('g:vimspectr210_dark_MuteAccents')
-if g:vimspectr210_dark_MuteAccents == 'on'
+if exists('g:vimspectrMuteAccents')
+if g:vimspectrMuteAccents == 'on'
 if has('nvim')
   let g:terminal_color_1 =  '#9e7276'
   let g:terminal_color_2 =  '#5b8a55'
