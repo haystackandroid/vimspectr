@@ -152,11 +152,6 @@ call plug#end()
 
 <p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. <strong>Insert them before the line that sets <code class="highlighter-rouge">colorscheme</code>.</strong></p>
 
-<p>Set <strong>muted statusline</strong>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteStatusLine = 'on'
-</code></pre></div></div>
-
 <p>Set <strong>muted line numbers</strong>:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteLineNr = 'on'
