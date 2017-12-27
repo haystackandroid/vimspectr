@@ -1,109 +1,108 @@
+<blockquote>
+  <p>** Note: recent changes are config-breaking.</p>
+
+  <p>I came to be unsatisfied with the original complexity of vimspectr, so I’ve streamlined the options down to a single (light/dark) pair of themes per hue.</p>
+</blockquote>
+
 <h1 id="vimspectr">vimspectr</h1>
 
-<p>With vimspectr, you can assemble your own vim theme:</p>
+<p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of:</p>
 
 <ul>
-  <li>first, select a <strong>hue</strong> for the base colours
-    <ul>
-      <li>choose from 12 hues, evenly spaced around the colour wheel (or stick with good old-fashioned greyscale)</li>
-    </ul>
-  </li>
-  <li>next, select a <strong>saturation curve</strong>
-    <ul>
-      <li>choose whether you want saturation to rise as base colours grow darker, or hold constant</li>
-      <li>choose whether you want the lightest base colour to be tinted or plain white</li>
-    </ul>
-  </li>
-  <li>finally, select a colour for the <strong>statusline</strong>
-    <ul>
-      <li>choose between the default base colour or any of 8 bright accent colours</li>
-    </ul>
-  </li>
+  <li>a dark/light theme pair for each of <strong>12 hues</strong>, evenly spaced around the colour wheel</li>
+  <li>a dark/light theme pair in <strong>greyscale</strong></li>
 </ul>
 
-<p><br /></p>
-
-<p>Here are some examples of themes you can “assemble”, along with their vimrc settings.</p>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="simplify-simplify-greyscale-theme">simplify, simplify (greyscale theme)</h3>
-
-  <p><img src="/img/screenshot-simplifysimplify-dark.png" alt="screenshot of the simplifysimplify-dark vim theme" width="282" /><br /><code class="highlighter-rouge">colorscheme vimspectrgrey-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-simplifysimplify-light.png" alt="screenshot of the simplifysimplify-light vim theme" width="282" /><br /><code class="highlighter-rouge">colorscheme vimspectrgrey-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="carbonized">carbonized</h3>
-
-  <p><img src="/img/screenshot-carbonized-dark.png" alt="screenshot of the carbonized-dark vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_dark_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-carbonized-light.png" alt="screenshot of the carbonized-light vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr60flat_light_StatusLine = 'orange'</code><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="forgotten">forgotten</h3>
-
-  <p><img src="/img/screenshot-forgotten-dark.png" alt="screenshot of the forgotten-dark vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr210curve_dark_StatusLine = 'red'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-forgotten-light.png" alt="screenshot of the forgotten-light vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr210curve_light_StatusLine = 'blue'</code><br /><code class="highlighter-rouge">colorscheme vimspectr210curve-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="nemo">nemo</h3>
-
-  <p><img src="/img/screenshot-nemo-dark.png" alt="screenshot of the nemo-dark vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_dark_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-nemo-light.png" alt="screenshot of the nemo-light vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr240curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr240curve-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="office">office</h3>
-
-  <p><img src="/img/screenshot-office-dark.png" alt="screenshot of the office-dark vim theme" width="282" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-office-light.png" alt="screenshot of the office-light vim theme" width="282" /><br /><code class="highlighter-rouge">colorscheme vimspectr60flat-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="seagrey">seagrey</h3>
-
-  <p><img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="282" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="282" /><br /><code class="highlighter-rouge">colorscheme vimspectr210wcurve-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="strawberry">strawberry</h3>
-
-  <p><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_dark_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr330curve_light_StatusLine = 'pink'</code><br /><code class="highlighter-rouge">colorscheme vimspectr330curve-light</code></p>
-</blockquote>
-
-<p><br /></p>
-
-<blockquote>
-  <h3 id="wonka">wonka</h3>
-
-  <p><img src="/img/screenshot-wonka-dark.png" alt="screenshot of the wonka-dark vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_dark_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-dark</code>
-<br /><br /><br />
-<img src="/img/screenshot-wonka-light.png" alt="screenshot of the wonka-light vim theme" width="282" /><br /><code class="highlighter-rouge">let g:vimspectr30curve_light_StatusLine = 'yellow'</code><br /><code class="highlighter-rouge">colorscheme vimspectr30curve-light</code></p>
-</blockquote>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">hue</th>
+      <th style="text-align: center">colour name</th>
+      <th style="text-align: center">dark theme</th>
+      <th style="text-align: center">light theme</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" />0</td>
+      <td style="text-align: center">red</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr0-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr0-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" />30</td>
+      <td style="text-align: center">orange</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr30-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr30-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" />60</td>
+      <td style="text-align: center">yellow</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr60-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr60-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" />90</td>
+      <td style="text-align: center">lawn green</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr90-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr90-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" />120</td>
+      <td style="text-align: center">green</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr120-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr120-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" />150</td>
+      <td style="text-align: center">sea green</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr150-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr150-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" />180</td>
+      <td style="text-align: center">aqua</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr180-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr180-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" />210</td>
+      <td style="text-align: center">sky blue</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr210-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr210-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" />240</td>
+      <td style="text-align: center">blue</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr240-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr240-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" />270</td>
+      <td style="text-align: center">purple</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr270-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr270-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" />300</td>
+      <td style="text-align: center">pink</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr300-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr300-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" />330</td>
+      <td style="text-align: center">rose</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr330-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectr330-light</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d4d4.png" height="24" width="36" />none</td>
+      <td style="text-align: center">grey</td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectrgrey-dark</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">vimspectrgrey-light</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <p><br /></p>
 
@@ -135,33 +134,17 @@ call plug#end()
 
 <p>To activate a vimspectr theme, add the following line to your <code class="highlighter-rouge">vimrc</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme vimspectrHS-B
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme vimspectrH-B
 </code></pre></div></div>
 
-<p>…replacing <code class="highlighter-rouge">H</code> with hue, <code class="highlighter-rouge">S</code> with saturation curve, and <code class="highlighter-rouge">B</code> with background setting.</p>
+<p>…replacing <code class="highlighter-rouge">H</code> with hue (e.g. <code class="highlighter-rouge">60</code>) and <code class="highlighter-rouge">B</code> with background setting (i.e. <code class="highlighter-rouge">dark</code> or <code class="highlighter-rouge">light</code>).</p>
 
 <p>For example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme vimspectr60flat-light
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme vimspectr60-light
 </code></pre></div></div>
 
-<ul>
-  <li><strong>hue</strong> can be any 30° interval from 0° to 330°
-    <ul>
-      <li><code class="highlighter-rouge">0</code> is pure red, <code class="highlighter-rouge">120</code> is pure green, <code class="highlighter-rouge">240</code> is pure blue</li>
-    </ul>
-  </li>
-  <li><strong>saturation curve</strong>, which refers to the saturation levels of a theme’s base colours, can take one of four values
-    <ul>
-      <li><code class="highlighter-rouge">curve</code>: saturation rises as base colours grow darker</li>
-      <li><code class="highlighter-rouge">flat</code>: saturation is static across base colours</li>
-      <li><code class="highlighter-rouge">wcurve</code> or <code class="highlighter-rouge">wflat</code>: variations of <code class="highlighter-rouge">curve</code> and <code class="highlighter-rouge">flat</code> in which the lightest colour is white (instead of tinted)</li>
-    </ul>
-  </li>
-  <li><strong>background</strong> can be <code class="highlighter-rouge">dark</code> or <code class="highlighter-rouge">light</code></li>
-</ul>
-
-<p>View the list of <a href="https://github.com/nightsense/vimspectr/tree/master/colors">theme files</a> to see all possible values for <code class="highlighter-rouge">colorscheme</code>. The greyscale options are <code class="highlighter-rouge">vimspectrgrey-dark</code> and <code class="highlighter-rouge">vimspectrgrey-light</code>.</p>
+<p>View the list of <a href="https://github.com/nightsense/vimspectr/tree/master/colors">theme files</a> to see all possible values for <code class="highlighter-rouge">colorscheme</code>.</p>
 
 <blockquote>
   <p>To assign themes to specific intervals of the day, try the <a href="https://github.com/nightsense/night-and-day">night-and-day</a> plugin.</p>
@@ -169,43 +152,36 @@ call plug#end()
 
 <h3 id="options">options</h3>
 
-<p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. Insert these lines <strong>before</strong> the line that sets <code class="highlighter-rouge">colorscheme</code>.</p>
-
-<p>Each line assigns a value to a variable. Be sure to change the theme name in the variable to match the targeted theme.</p>
-
-<p>Custom <strong>statusline colour</strong> (red, orange, yellow, green, teal, blue, purple, pink):</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_StatusLine = 'red'
-</code></pre></div></div>
+<p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. <strong>Insert them before the line that sets <code class="highlighter-rouge">colorscheme</code>.</strong></p>
 
 <p>Use <strong>muted accent colours</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_MuteAccents = 'on'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteAccents = 'on'
 </code></pre></div></div>
 
 <p>Set <strong>muted statusline</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_MuteStatusLine = 'on'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteStatusLine = 'on'
 </code></pre></div></div>
 
 <p>Set <strong>muted line numbers</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_MuteLineNr = 'on'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteLineNr = 'on'
 </code></pre></div></div>
 
 <p>Use <strong>italicized comments</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_ItalicComment = 'on'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrItalicComment = 'on'
 </code></pre></div></div>
 
 <p>Disable highlighted <strong>current line number</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_CursorLineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrCursorLineNr = 'off'
 </code></pre></div></div>
 
 <p>Disable the highlighted <strong>line number background</strong>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectr210curve_dark_LineNr = 'off'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrLineNr = 'off'
 </code></pre></div></div>
 
 <h2 id="terminal">terminal</h2>

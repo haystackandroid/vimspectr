@@ -1,4 +1,4 @@
-" vimspectrgrey-dark, a vim theme by nightsense
+" vimspectr30-dark, a vim theme by nightsense
 " https://github.com/nightsense/vimspectr
 "
 " generated with a theme template adapted from base16-vim by Chris Kempson
@@ -8,14 +8,14 @@
 "=== SET COLOUR VARIABLES =====================================================
 
 " GUI colours
-let s:g0 = '141414'
-let s:g1 = '292929'
-let s:g2 = '696969'
-let s:g3 = '696969'
-let s:g4 = '8c8c8c'
-let s:g5 = '8f8f8f'
-let s:g6 = 'e6e6e6'
-let s:g7 = 'ffffff'
+let s:g0 = '17120d'
+let s:g1 = '2e261f'
+let s:g2 = '6e6052'
+let s:g3 = '706559'
+let s:g4 = '8f867d'
+let s:g5 = '918b85'
+let s:g6 = 'e6dcd2'
+let s:g7 = 'fff4ea'
 let s:g8 = 'bf5858'
 let s:g9 = 'b56f45'
 let s:gA = 'ab8e38'
@@ -26,8 +26,8 @@ let s:gE = '8b6a9e'
 let s:gF = 'ab6a7a'
 
 " muted accent colours
-if exists('g:vimspectrgrey_dark_MuteAccents')
-if g:vimspectrgrey_dark_MuteAccents == 'on'
+if exists('g:vimspectr30_dark_MuteAccents')
+if g:vimspectr30_dark_MuteAccents == 'on'
 let s:g8 = '9e7276'
 let s:g9 = '9c7760'
 let s:gA = '8a7c55'
@@ -59,27 +59,27 @@ let s:tF = '14'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#141414'
+  let g:terminal_color_0 =  '#17120d'
   let g:terminal_color_1 =  '#bf5858'
   let g:terminal_color_2 =  '#508a50'
   let g:terminal_color_3 =  '#ab8e38'
   let g:terminal_color_4 =  '#557b9e'
   let g:terminal_color_5 =  '#8b6a9e'
   let g:terminal_color_6 =  '#458a8a'
-  let g:terminal_color_7 =  '#8f8f8f'
-  let g:terminal_color_8 =  '#696969'
+  let g:terminal_color_7 =  '#918b85'
+  let g:terminal_color_8 =  '#706559'
   let g:terminal_color_9 =  '#b56f45'
-  let g:terminal_color_10 = '#292929'
-  let g:terminal_color_11 = '#696969'
-  let g:terminal_color_12 = '#8c8c8c'
-  let g:terminal_color_13 = '#e6e6e6'
+  let g:terminal_color_10 = '#2e261f'
+  let g:terminal_color_11 = '#6e6052'
+  let g:terminal_color_12 = '#8f867d'
+  let g:terminal_color_13 = '#e6dcd2'
   let g:terminal_color_14 = '#ab6a7a'
-  let g:terminal_color_15 = '#ffffff'
+  let g:terminal_color_15 = '#fff4ea'
 endif
 
 " muted accent colours
-if exists('g:vimspectrgrey_dark_MuteAccents')
-if g:vimspectrgrey_dark_MuteAccents == 'on'
+if exists('g:vimspectr30_dark_MuteAccents')
+if g:vimspectr30_dark_MuteAccents == 'on'
 if has('nvim')
   let g:terminal_color_1 =  '#9e7276'
   let g:terminal_color_2 =  '#5b8a55'
@@ -97,9 +97,9 @@ endif
 "=== OTHER PREPARATION ========================================================
 
 " run theme-setting script if using terminal vim
-if filereadable(expand('~/.vimspectr-shell/vimspectrgrey-dark'))
+if filereadable(expand('~/.vimspectr-shell/vimspectr30-dark'))
   if !has('gui_running')
-    execute 'silent !/bin/sh $HOME/.vimspectr-shell/vimspectrgrey-dark'
+    execute 'silent !/bin/sh $HOME/.vimspectr-shell/vimspectr30-dark'
   endif
 endif
 
@@ -112,9 +112,9 @@ set background=dark
 augroup VimspectrThemeSet
    autocmd!
    autocmd CursorMoved * execute 'if !exists("colors_name") |
-         \ colorscheme vimspectrgrey-dark | endif'
+         \ colorscheme vimspectr30-dark | endif'
 augroup END
-let colors_name = 'vimspectrgrey-dark'
+let colors_name = 'vimspectr30-dark'
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)

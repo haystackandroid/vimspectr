@@ -9,12 +9,12 @@
 
 " GUI colours
 let s:g0 = 'ffffff'
-let s:g1 = 'ebebeb'
+let s:g1 = 'e6e6e6'
 let s:g2 = '8f8f8f'
 let s:g3 = '8c8c8c'
 let s:g4 = '696969'
 let s:g5 = '696969'
-let s:g6 = '242424'
+let s:g6 = '292929'
 let s:g7 = '141414'
 let s:g8 = 'f5563d'
 let s:g9 = 'eb6f28'
@@ -69,10 +69,10 @@ if has('nvim')
   let g:terminal_color_7 =  '#696969'
   let g:terminal_color_8 =  '#8c8c8c'
   let g:terminal_color_9 =  '#eb6f28'
-  let g:terminal_color_10 = '#ebebeb'
+  let g:terminal_color_10 = '#e6e6e6'
   let g:terminal_color_11 = '#8f8f8f'
   let g:terminal_color_12 = '#696969'
-  let g:terminal_color_13 = '#242424'
+  let g:terminal_color_13 = '#292929'
   let g:terminal_color_14 = '#d46a84'
   let g:terminal_color_15 = '#141414'
 endif
@@ -260,59 +260,38 @@ cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
 
 "=== SET OPTIONS ==============================================================
 
-" custom StatusLine colour
-if exists('g:vimspectrgrey_light_StatusLine')
-if g:vimspectrgrey_light_StatusLine == 'red'
-cal <sid>h('StatusLine'       , s:g0 , s:g8 , s:t0 , s:t8 , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'orange'
-cal <sid>h('StatusLine'       , s:g0 , s:g9 , s:t0 , s:t9 , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'yellow'
-cal <sid>h('StatusLine'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'green'
-cal <sid>h('StatusLine'       , s:g0 , s:gB , s:t0 , s:tB , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'teal'
-cal <sid>h('StatusLine'       , s:g0 , s:gC , s:t0 , s:tC , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'blue'
-cal <sid>h('StatusLine'       , s:g0 , s:gD , s:t0 , s:tD , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'purple'
-cal <sid>h('StatusLine'       , s:g0 , s:gE , s:t0 , s:tE , 'none'      , ''  )
-elseif g:vimspectrgrey_light_StatusLine == 'pink'
-cal <sid>h('StatusLine'       , s:g0 , s:gF , s:t0 , s:tF , 'none'      , ''  )
-endif
-endif
-
 " disable highlighted CursorLineNr
-if exists('g:vimspectrgrey_light_CursorLineNr')
-if g:vimspectrgrey_light_CursorLineNr == 'off'
+if exists('g:vimspectrCursorLineNr')
+if g:vimspectrCursorLineNr == 'off'
 cal <sid>h('CursorLineNr'     , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 endif
 endif
 
 " disable LineNr background altogether
-if exists('g:vimspectrgrey_light_LineNr')
-if g:vimspectrgrey_light_LineNr == 'off'
+if exists('g:vimspectrLineNr')
+if g:vimspectrLineNr == 'off'
 cal <sid>h('CursorLineNr'     , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
 cal <sid>h('LineNr'           , s:g4 , s:g0 , s:t4 , s:t0 , 'none'      , ''  )
 endif
 endif
 
 " mute LineNr
-if exists('g:vimspectrgrey_light_MuteLineNr')
-if g:vimspectrgrey_light_MuteLineNr == 'on'
+if exists('g:vimspectrMuteLineNr')
+if g:vimspectrMuteLineNr == 'on'
 cal <sid>h('LineNr'           , s:g3 , s:g1 , s:t3 , s:t1 , 'none'      , ''  )
 endif
 endif
 
 " mute StatusLine
-if exists('g:vimspectrgrey_light_MuteStatusLine')
-if g:vimspectrgrey_light_MuteStatusLine == 'on'
+if exists('g:vimspectrMuteStatusLine')
+if g:vimspectrMuteStatusLine == 'on'
 cal <sid>h('StatusLine'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
 endif
 endif
 
 " enable italicized comments
-if exists('g:vimspectrgrey_light_ItalicComment')
-if g:vimspectrgrey_light_ItalicComment == 'on'
+if exists('g:vimspectrItalicComment')
+if g:vimspectrItalicComment == 'on'
 cal <sid>h('Comment'          , s:g3 , ''   , s:t3 , ''   , 'italic'      , ''  )
 endif
 endif
