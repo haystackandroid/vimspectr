@@ -179,7 +179,7 @@ call plug#end()
 
 <h2 id="terminal">terminal</h2>
 
-<p>vimspectr includes support for the <strong>Linux console</strong> and various <strong>terminal emulators</strong>, including gnome-terminal, roxterm, st, terminator, tilda, tilix, urxvt, xfce4-terminal, and xterm. Terminal <strong>vim</strong> and <strong>neovim</strong> are supported, as are <strong>screen</strong> and <strong>tmux</strong>.</p>
+<p>vimspectr includes support for the <strong>Linux console</strong> and various <strong>terminal emulators</strong>, including alacritty, gnome-terminal, roxterm, st, terminator, tilda, tilix, urxvt, xfce4-terminal, and xterm. Terminal <strong>vim</strong> and <strong>neovim</strong> are supported, as are <strong>screen</strong> and <strong>tmux</strong>.</p>
 
 <blockquote>
   <p>If colours aren’t displaying properly, the issue is probably related to 256-colour support. Be sure your terminal (and multiplexer, if applicable) supports 256 colours and is properly configured.</p>
@@ -220,7 +220,7 @@ call plug#end()
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim(){ sh -c "vim $*"; sh ~/.vimspectr-shell/THEME; clear; }
 </code></pre></div></div>
 
-<p>…replacing <code class="highlighter-rouge">THEME</code> with the colourscheme (e.g. <code class="highlighter-rouge">sh ~/.nightshell/carbonized-light</code>) to restore upon exiting vim.</p>
+<p>…replacing <code class="highlighter-rouge">THEME</code> with the colourscheme (e.g. <code class="highlighter-rouge">sh ~/.nightshell/vimspectr210-light</code>) to restore upon exiting vim.</p>
 
 <p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
 
