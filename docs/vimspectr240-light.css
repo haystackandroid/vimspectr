@@ -1,4 +1,4 @@
-html{background:#eaeaff}
+#background{background:#eaeaff}
 #background{border-left-color:#d5d5e8}
 #comment{color:#7b7b8c}
 #background{border-bottom-color:#696985}
@@ -12,3 +12,4 @@ html{color:#5c5c7a}
 #col0E{color:#9969b5}
 #col0F{color:#d46a84}
 #col0A{color:#252538}
+html{background:black}
