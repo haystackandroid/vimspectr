@@ -1,7 +1,7 @@
 <blockquote>
   <p><strong>Note: recent changes are config-breaking.</strong></p>
 
-  <p>I came to be unsatisfied with the original complexity of vimspectr, so I’ve streamlined the options down to a single (light/dark) pair of themes per hue.</p>
+  <p>Unsatisfied with the original complexity of vimspectr, I’ve streamlined down to a single (light/dark) pair of themes per hue.</p>
 </blockquote>
 
 <h1 id="vimspectr">vimspectr</h1>
