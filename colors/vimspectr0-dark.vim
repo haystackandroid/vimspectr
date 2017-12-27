@@ -25,20 +25,6 @@ let s:gD = '637b94'
 let s:gE = '866f94'
 let s:gF = 'ab7280'
 
-" muted accent colours
-if exists('g:vimspectrMuteAccents')
-if g:vimspectrMuteAccents == 'on'
-let s:g8 = '9e7276'
-let s:g9 = '9c7760'
-let s:gA = '8a7c55'
-let s:gB = '5b8a55'
-let s:gC = '548587'
-let s:gD = '5f8299'
-let s:gE = '86779e'
-let s:gF = '997383'
-endif
-endif
-
 " terminal colours
 let s:t0 = '00'
 let s:t3 = '08'
@@ -75,22 +61,6 @@ if has('nvim')
   let g:terminal_color_13 = '#e8d5d5'
   let g:terminal_color_14 = '#ab7280'
   let g:terminal_color_15 = '#ffeaea'
-endif
-
-" muted accent colours
-if exists('g:vimspectrMuteAccents')
-if g:vimspectrMuteAccents == 'on'
-if has('nvim')
-  let g:terminal_color_1 =  '#9e7276'
-  let g:terminal_color_2 =  '#5b8a55'
-  let g:terminal_color_3 =  '#8a7c55'
-  let g:terminal_color_4 =  '#5f8299'
-  let g:terminal_color_5 =  '#86779e'
-  let g:terminal_color_6 =  '#548587'
-  let g:terminal_color_9 =  '#9c7760'
-  let g:terminal_color_14 = '#997383'
-endif
-endif
 endif
 
 
