@@ -1,8 +1,8 @@
-#background{background:#eaeaff}
+html{background:#eaeaff}
 #linenr{background:#d5d5e8}
 #comment{color:#7b7b8c}
 #statusline{background:#696985}
-#text{color:#5c5c7a}
+html{color:#5c5c7a}
 #col08{color:#e05e4a}
 #col09{color:#d46f35}
 #col0A{color:#e0c470}
