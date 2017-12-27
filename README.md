@@ -1,5 +1,5 @@
 <blockquote>
-  <p>** Note: recent changes are config-breaking.</p>
+  <p><strong>Note: recent changes are config-breaking.</strong></p>
 
   <p>I came to be unsatisfied with the original complexity of vimspectr, so I’ve streamlined the options down to a single (light/dark) pair of themes per hue.</p>
 </blockquote>
@@ -24,79 +24,79 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" />0</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /> 0</td>
       <td style="text-align: center">red</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr0-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr0-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" />30</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /> 30</td>
       <td style="text-align: center">orange</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr30-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr30-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" />60</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /> 60</td>
       <td style="text-align: center">yellow</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr60-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr60-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" />90</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /> 90</td>
       <td style="text-align: center">lawn green</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr90-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr90-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" />120</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /> 120</td>
       <td style="text-align: center">green</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr120-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr120-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" />150</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /> 150</td>
       <td style="text-align: center">sea green</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr150-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr150-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" />180</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /> 180</td>
       <td style="text-align: center">aqua</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr180-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr180-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" />210</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /> 210</td>
       <td style="text-align: center">sky blue</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr210-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr210-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" />240</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /> 240</td>
       <td style="text-align: center">blue</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr240-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr240-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" />270</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /> 270</td>
       <td style="text-align: center">purple</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr270-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr270-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" />300</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /> 300</td>
       <td style="text-align: center">pink</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr300-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr300-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" />330</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /> 330</td>
       <td style="text-align: center">rose</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr330-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectr330-light</code></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d4d4.png" height="24" width="36" />none</td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d4d4.png" height="24" width="36" /> none</td>
       <td style="text-align: center">grey</td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectrgrey-dark</code></td>
       <td style="text-align: center"><code class="highlighter-rouge">vimspectrgrey-light</code></td>
