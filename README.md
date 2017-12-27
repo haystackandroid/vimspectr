@@ -1,7 +1,7 @@
 <blockquote>
   <p><strong>Note: recent changes are config-breaking.</strong></p>
 
-  <p>Unsatisfied with the original complexity of vimspectr, I’ve streamlined down to a single (light/dark) pair of themes per hue.</p>
+  <p>Unsatisfied with the original complexity of vimspectr, I’ve streamlined to a single (light/dark) pair of themes per hue.</p>
 </blockquote>
 
 <h1 id="vimspectr">vimspectr</h1>
@@ -104,8 +104,6 @@
   </tbody>
 </table>
 
-<p><br /></p>
-
 <h2 id="setup">setup</h2>
 
 <h3 id="installation">installation</h3>
@@ -153,11 +151,6 @@ call plug#end()
 <h3 id="options">options</h3>
 
 <p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. <strong>Insert them before the line that sets <code class="highlighter-rouge">colorscheme</code>.</strong></p>
-
-<p>Use <strong>muted accent colours</strong>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteAccents = 'on'
-</code></pre></div></div>
 
 <p>Set <strong>muted statusline</strong>:</p>
 

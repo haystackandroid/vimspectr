@@ -6,15 +6,15 @@
 # linux console
 if [ "${TERM%%-*}" = 'linux' ]; then
   echo -e "\e]P0eaffff"
-  echo -e "\e]P1f5563d"
-  echo -e "\e]P2349e4f"
-  echo -e "\e]P3d4ac35"
-  echo -e "\e]P44398c9"
-  echo -e "\e]P5a26fbf"
-  echo -e "\e]P61b9e8d"
+  echo -e "\e]P1e05e4a"
+  echo -e "\e]P2349e42"
+  echo -e "\e]P3e0c470"
+  echo -e "\e]P44c8eb5"
+  echo -e "\e]P59969b5"
+  echo -e "\e]P6259486"
   echo -e "\e]P7506b6b"
   echo -e "\e]P87d8f8f"
-  echo -e "\e]P9eb6f28"
+  echo -e "\e]P9d46f35"
   echo -e "\e]PAd2e6e6"
   echo -e "\e]PB838f8f"
   echo -e "\e]PC556b6b"
@@ -27,15 +27,15 @@ if [ "${TERM%%-*}" = 'linux' ]; then
 fi
 
 color00="ea/ff/ff" # Base 00 - Black
-color01="f5/56/3d" # Base 08 - Red
-color02="34/9e/4f" # Base 0B - Green
-color03="d4/ac/35" # Base 0A - Yellow
-color04="43/98/c9" # Base 0D - Blue
-color05="a2/6f/bf" # Base 0E - Magenta
-color06="1b/9e/8d" # Base 0C - Cyan
+color01="e0/5e/4a" # Base 08 - Red
+color02="34/9e/42" # Base 0B - Green
+color03="e0/c4/70" # Base 0A - Yellow
+color04="4c/8e/b5" # Base 0D - Blue
+color05="99/69/b5" # Base 0E - Magenta
+color06="25/94/86" # Base 0C - Cyan
 color07="50/6b/6b" # Base 05 - White
 color08="7d/8f/8f" # Base 03 - Bright Black
-color09="eb/6f/28" # Base 09
+color09="d4/6f/35" # Base 09
 color10="d2/e6/e6" # Base 01
 color11="83/8f/8f" # Base 02
 color12="55/6b/6b" # Base 04
