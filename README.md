@@ -285,7 +285,7 @@ done'
 <p><br /></p>
 
 <blockquote>
-  <h2 id="production-notes">production notes</h2>
+  <h2 id="additional-notes">additional notes</h2>
 
   <h3 id="palette">palette</h3>
 
@@ -397,4 +397,38 @@ done'
     <li><strong>archive files</strong> are <strong>purple</strong>, since purple is the colour of famous dyes made from sea snails, which are happily packed into shells (until someone decides to make dye out of them)</li>
     <li><strong>multimedia files</strong> are <strong>blue</strong>, since blue conveys calm, enduring stability (like the sea and sky), just like the great works of art (images, music, video) we can rely on</li>
   </ul>
+
+  <h3 id="sun-based-theme-rotation">sun-based theme rotation</h3>
+
+  <p>If you would like to rotate through all light vimspectr themes throughout daylight hours, and likewise all dark themes throughout the night, install <a href="https://github.com/nightsense/night-and-day">night-and-day</a> and add the following to vimrc:</p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:nd_themes = [
+  \ ['sunrise+0'    , 'vimspectrgrey-light', 'light'],
+  \ ['sunrise+1/13' , 'vimspectr0-light'   , 'light'],
+  \ ['sunrise+2/13' , 'vimspectr30-light'  , 'light'],
+  \ ['sunrise+3/13' , 'vimspectr60-light'  , 'light'],
+  \ ['sunrise+4/13' , 'vimspectr90-light'  , 'light'],
+  \ ['sunrise+5/13' , 'vimspectr120-light' , 'light'],
+  \ ['sunrise+6/13' , 'vimspectr150-light' , 'light'],
+  \ ['sunrise+7/13' , 'vimspectr180-light' , 'light'],
+  \ ['sunrise+8/13' , 'vimspectr210-light' , 'light'],
+  \ ['sunrise+9/13' , 'vimspectr240-light' , 'light'],
+  \ ['sunrise+10/13', 'vimspectr270-light' , 'light'],
+  \ ['sunrise+11/13', 'vimspectr300-light' , 'light'],
+  \ ['sunrise+12/13', 'vimspectr330-light' , 'light'],
+  \ ['sunset+0'     , 'vimspectrgrey-dark' , 'light'],
+  \ ['sunset+1/13'  , 'vimspectr0-dark'    , 'light'],
+  \ ['sunset+2/13'  , 'vimspectr30-dark'   , 'light'],
+  \ ['sunset+3/13'  , 'vimspectr60-dark'   , 'light'],
+  \ ['sunset+4/13'  , 'vimspectr90-dark'   , 'light'],
+  \ ['sunset+5/13'  , 'vimspectr120-dark'  , 'light'],
+  \ ['sunset+6/13'  , 'vimspectr150-dark'  , 'light'],
+  \ ['sunset+7/13'  , 'vimspectr180-dark'  , 'light'],
+  \ ['sunset+8/13'  , 'vimspectr210-dark'  , 'light'],
+  \ ['sunset+9/13'  , 'vimspectr240-dark'  , 'light'],
+  \ ['sunset+10/13' , 'vimspectr270-dark'  , 'light'],
+  \ ['sunset+11/13' , 'vimspectr300-dark'  , 'light'],
+  \ ['sunset+12/13' , 'vimspectr330-dark'  , 'light'],
+  \ ]
+</code></pre></div>  </div>
 </blockquote>
