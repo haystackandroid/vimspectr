@@ -231,8 +231,6 @@ call plug#end()
 
 <p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
 
-<p>Add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
-
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function vim; sh -c "vim $argv"; sh ~/.vimspectr-shell/THEME; clear; end
 </code></pre></div></div>
 
@@ -257,35 +255,6 @@ call plug#end()
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eval (dircolors -c ~/.vimspectr-shell/dircolors)
 </code></pre></div></div>
-
-<blockquote>
-  <h3 id="vimspectr-dircolors-logic">vimspectr dircolors logic</h3>
-
-  <ul>
-    <li><strong>directories</strong> are <strong>bold</strong>, reflecting their “expanded” role as a “file that contains files”
-      <ul>
-        <li><strong>normal directories</strong> use the normal text colour</li>
-        <li><strong>“sticky” directories</strong> are <strong>pink</strong>, like sticky bubble gum</li>
-        <li><strong>“other-writable” directories</strong> are <strong>orange</strong>, as though warmed by the heat of writing activity</li>
-        <li>directories that are <strong>both</strong> “sticky” and “other-writable” are <strong>orange and underlined</strong>: the orange is writing-warmth, while the underline is a “stick”</li>
-      </ul>
-    </li>
-    <li><strong>links</strong> are underlined, like hyperlinks on the internet
-      <ul>
-        <li>this applies to both <strong>multi-hardlinked files</strong> and <strong>symlinks</strong></li>
-        <li>links use the normal text colour except for <strong>orphan links</strong> (symlinks that point to non-existent files), which are <strong>red</strong> (the colour of warning)</li>
-      </ul>
-    </li>
-    <li><strong>device driver files</strong> are <strong>highlighted</strong> with the normal text colour; since this colour is grey (or greyish), these highlighted blocks of texts resemble the grey, boxy form taken by many technological devices</li>
-    <li><strong>IPC files</strong> are <strong>blue-highlighted</strong>, since they enable information to flow between processes like water</li>
-    <li><strong>setuid files</strong> (u+s) are <strong>purple-highlighted</strong>: p<strong>u</strong>rple = <strong>u</strong>ser</li>
-    <li><strong>setgid files</strong> (g+s) are <strong>green-highlighted</strong>: <strong>g</strong>reen = <strong>g</strong>roup</li>
-    <li>files that use <strong>capabilities</strong> are <strong>red-highlighted</strong>: red = red-blooded = capable</li>
-    <li><strong>executable files</strong> are <strong>green</strong>, since green = “go ahead, proceed with action”</li>
-    <li><strong>archive files</strong> are <strong>purple</strong>, since purple is the colour of famous dyes made from sea snails, which are happily packed into shells (until someone decides to make dye out of them)</li>
-    <li><strong>multimedia files</strong> are <strong>blue</strong>, since blue conveys calm, enduring stability (like the sea and sky), just like the great works of art (images, music, video) we can rely on</li>
-  </ul>
-</blockquote>
 
 <h3 id="fish-shell-theme">fish shell theme</h3>
 
@@ -324,3 +293,34 @@ done'
   <li>…in <strong>neovim</strong>, ensure your configuration does not contain <code class="highlighter-rouge">set termguicolors</code></li>
   <li>…in <strong>tmux</strong>, try launching tmux with <code class="highlighter-rouge">tmux -2</code></li>
 </ul>
+
+<blockquote>
+  <h2 id="notes">notes</h2>
+
+  <h3 id="vimspectr-dircolors-logic">vimspectr dircolors logic</h3>
+
+  <ul>
+    <li><strong>directories</strong> are <strong>bold</strong>, reflecting their “expanded” role as a “file that contains files”
+      <ul>
+        <li><strong>normal directories</strong> use the normal text colour</li>
+        <li><strong>“sticky” directories</strong> are <strong>pink</strong>, like sticky bubble gum</li>
+        <li><strong>“other-writable” directories</strong> are <strong>orange</strong>, as though warmed by the heat of writing activity</li>
+        <li>directories that are <strong>both</strong> “sticky” and “other-writable” are <strong>orange and underlined</strong>: the orange is writing-warmth, while the underline is a “stick”</li>
+      </ul>
+    </li>
+    <li><strong>links</strong> are underlined, like hyperlinks on the internet
+      <ul>
+        <li>this applies to both <strong>multi-hardlinked files</strong> and <strong>symlinks</strong></li>
+        <li>links use the normal text colour except for <strong>orphan links</strong> (symlinks that point to non-existent files), which are <strong>red</strong> (the colour of warning)</li>
+      </ul>
+    </li>
+    <li><strong>device driver files</strong> are <strong>highlighted</strong> with the normal text colour; since this colour is grey (or greyish), these highlighted blocks of texts resemble the grey, boxy form taken by many technological devices</li>
+    <li><strong>IPC files</strong> are <strong>blue-highlighted</strong>, since they enable information to flow between processes like water</li>
+    <li><strong>setuid files</strong> (u+s) are <strong>purple-highlighted</strong>: p<strong>u</strong>rple = <strong>u</strong>ser</li>
+    <li><strong>setgid files</strong> (g+s) are <strong>green-highlighted</strong>: <strong>g</strong>reen = <strong>g</strong>roup</li>
+    <li>files that use <strong>capabilities</strong> are <strong>red-highlighted</strong>: red = red-blooded = capable</li>
+    <li><strong>executable files</strong> are <strong>green</strong>, since green = “go ahead, proceed with action”</li>
+    <li><strong>archive files</strong> are <strong>purple</strong>, since purple is the colour of famous dyes made from sea snails, which are happily packed into shells (until someone decides to make dye out of them)</li>
+    <li><strong>multimedia files</strong> are <strong>blue</strong>, since blue conveys calm, enduring stability (like the sea and sky), just like the great works of art (images, music, video) we can rely on</li>
+  </ul>
+</blockquote>
