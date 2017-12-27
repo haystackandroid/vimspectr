@@ -1,11 +1,11 @@
 html{background:#14140c}
-#linenr{background:#26261a}
+#background{border-left-color:#26261a}
 #comment{color:#6e6e57}
-#statusline{background:#8a8a78}
+#background{border-bottom-color:#8a8a78}
 html{color:#8c8c81}
 #col08{color:#b5675b}
 #col09{color:#b5734c}
-#col0A{color:#ab9555}
+#col0A{background:#ab9555}
 #col0B{color:#5c8a63}
 #col0C{color:#508a8a}
 #col0D{color:#637b94}

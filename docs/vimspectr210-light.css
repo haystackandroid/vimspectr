@@ -1,13 +1,14 @@
 html{background:#eaf4ff}
-#linenr{background:#d5dee8}
+#background{border-left-color:#d5dee8}
 #comment{color:#78818a}
-#statusline{background:#616e7a}
+#background{border-bottom-color:#616e7a}
 html{color:#566473}
 #col08{color:#e05e4a}
 #col09{color:#d46f35}
-#col0A{color:#e0c470}
+#col0A{background:#e0c470}
 #col0B{color:#349e42}
 #col0C{color:#259486}
 #col0D{color:#4c8eb5}
 #col0E{color:#9969b5}
 #col0F{color:#d46a84}
+#col0A{color:#1f262e}
