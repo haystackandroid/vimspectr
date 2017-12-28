@@ -335,10 +335,12 @@ done'
       <td style="text-align: left"><img src="http://www.colorhexa.com/4c8eb5.png" height="24" width="42" /> <code class="highlighter-rouge">4c8eb5</code></td>
     </tr>
     <tr>
+      <td></td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/866f94.png" height="24" width="42" /> <code class="highlighter-rouge">866f94</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/9969b5.png" height="24" width="42" /> <code class="highlighter-rouge">9969b5</code></td>
     </tr>
     <tr>
+      <td></td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/ab7280.png" height="24" width="42" /> <code class="highlighter-rouge">ab7280</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/d46a84.png" height="24" width="42" /> <code class="highlighter-rouge">d46a84</code></td>
     </tr>
