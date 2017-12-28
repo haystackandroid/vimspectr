@@ -289,7 +289,7 @@ done'
 
   <h3 id="palette">palette</h3>
 
-  <p>Each vimspectr theme consists of 8 theme-distinct <strong>base colours</strong> and 8 standard <strong>accent colours</strong>.</p>
+  <p>Each vimspectr theme consists of 6 theme-specific <strong>base colours</strong> and 8 fixed <strong>accent colours</strong>.</p>
 
   <p>Base colours are determined through a combination of contrast ratios and (except for the greyscale themes) a saturation curve that rises as base colour darkens. Contrast ratios were selected such that values of the base colours in the greyscale theme would align (roughly) with 1/24 (4.17%) intervals. Saturation levels were also adjusted by 1/24 intervals. For accent colours, accent hues were selected at the scale of 1/48 (7.5°) colour wheel intervals, while saturations and values were selected at the scale of 1/24.</p>
 
@@ -305,37 +305,35 @@ done'
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/2b2b2b.png" height="24" width="42" /> <code class="highlighter-rouge">2b2b2b</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/141414.png" height="24" width="42" /> <code class="highlighter-rouge">141414</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/b5675b.png" height="24" width="42" /> <code class="highlighter-rouge">b5675b</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/e05e4a.png" height="24" width="42" /> <code class="highlighter-rouge">e05e4a</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/404040.png" height="24" width="42" /> <code class="highlighter-rouge">404040</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/2b2b2b.png" height="24" width="42" /> <code class="highlighter-rouge">2b2b2b</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/b5734c.png" height="24" width="42" /> <code class="highlighter-rouge">b5734c</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/d46f35.png" height="24" width="42" /> <code class="highlighter-rouge">d46f35</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/6b6b6b.png" height="24" width="42" /> <code class="highlighter-rouge">6b6b6b</code> </td>
+      <td style="text-align: right" rowspan="2"><img src="http://www.colorhexa.com/6b6b6b.png" height="24" width="42" /> <code class="highlighter-rouge">6b6b6b</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/ab9555.png" height="24" width="42" /> <code class="highlighter-rouge">ab9555</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/e0c470.png" height="24" width="42" /> <code class="highlighter-rouge">e0c470</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/757575.png" height="24" width="42" /> <code class="highlighter-rouge">757575</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/5c8a63.png" height="24" width="42" /> <code class="highlighter-rouge">5c8a63</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/349e42.png" height="24" width="42" /> <code class="highlighter-rouge">349e42</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/949494.png" height="24" width="42" /> <code class="highlighter-rouge">949494</code> </td>
+      <td style="text-align: right" rowspan="2"><img src="http://www.colorhexa.com/8a8a8a.png" height="24" width="42" /> <code class="highlighter-rouge">8a8a8a</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/508a8a.png" height="24" width="42" /> <code class="highlighter-rouge">508a8a</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/259486.png" height="24" width="42" /> <code class="highlighter-rouge">259486</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/9e9e9e.png" height="24" width="42" /> <code class="highlighter-rouge">9e9e9e</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/637b94.png" height="24" width="42" /> <code class="highlighter-rouge">637b94</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/4c8eb5.png" height="24" width="42" /> <code class="highlighter-rouge">4c8eb5</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/e0e0e0.png" height="24" width="42" /> <code class="highlighter-rouge">e0e0e0</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/e8e8e8.png" height="24" width="42" /> <code class="highlighter-rouge">e8e8e8</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/866f94.png" height="24" width="42" /> <code class="highlighter-rouge">866f94</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/9969b5.png" height="24" width="42" /> <code class="highlighter-rouge">9969b5</code></td>
     </tr>
