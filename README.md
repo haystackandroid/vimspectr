@@ -337,7 +337,7 @@ done'
 <p><br /></p>
 
 <blockquote>
-  <h2 id="additional-notes">additional notes</h2>
+  <h2 id="production-notes">production notes</h2>
 
   <h3 id="palette">palette</h3>
 
