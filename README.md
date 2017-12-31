@@ -8,63 +8,59 @@
 
 <p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of a dark/light pair for each of the following hues.</p>
 
-<ul>
-  <li>
-    <table>
-      <thead>
-        <tr>
-          <th>0°</th>
-          <th>30°</th>
-          <th>60°</th>
-          <th>90°</th>
-          <th>120°</th>
-          <th>150°</th>
-          <th>180°</th>
-          <th>210°</th>
-          <th>240°</th>
-          <th>270°</th>
-          <th>300°</th>
-          <th>330°</th>
-          <th> </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><img src="http://www.colorhexa.com/bfbfbf.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /></td>
-          <td><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /></td>
-        </tr>
-        <tr>
-          <td>red</td>
-          <td>orange</td>
-          <td>yellow</td>
-          <td>lawn green</td>
-          <td>green</td>
-          <td>sea green</td>
-          <td>aqua</td>
-          <td>sky blue</td>
-          <td>blue</td>
-          <td>purple</td>
-          <td>pink</td>
-          <td>rose</td>
-          <td> </td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>none</th>
+      <th>0°</th>
+      <th>30°</th>
+      <th>60°</th>
+      <th>90°</th>
+      <th>120°</th>
+      <th>150°</th>
+      <th>180°</th>
+      <th>210°</th>
+      <th>240°</th>
+      <th>270°</th>
+      <th>300°</th>
+      <th>330°</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="http://www.colorhexa.com/bfbfbf.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /></td>
+    </tr>
+    <tr>
+      <td>grey</td>
+      <td>red</td>
+      <td>orange</td>
+      <td>yellow</td>
+      <td>lawn<br />green</td>
+      <td>green</td>
+      <td>sea<br />green</td>
+      <td>aqua</td>
+      <td>sky<br />blue</td>
+      <td>blue</td>
+      <td>purple</td>
+      <td>pink</td>
+      <td>rose</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><a href="https://nightsense.github.io/vimspectr/">You can preview all vimspectr themes here.</a></p>
+<h3 id="vimspectr-theme-previewer"><a href="https://nightsense.github.io/vimspectr/">vimspectr theme previewer</a></h3>
 
 <h2 id="setup">setup</h2>
 
