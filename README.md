@@ -168,27 +168,34 @@ exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
 
 <h3 id="options">options</h3>
 
-<p>Options can be configured by adding lines to your <code class="highlighter-rouge">vimrc</code>. <strong>Insert them before the line that sets <code class="highlighter-rouge">colorscheme</code>.</strong></p>
+<p>Options can be triggered by adding the corresponding code (<strong>before</strong> the line that sets <code class="highlighter-rouge">colorscheme</code>) in your <code class="highlighter-rouge">vimrc</code>.</p>
 
-<p>Set <strong>muted line numbers</strong>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrMuteLineNr = 'on'
-</code></pre></div></div>
-
-<p>Use <strong>italicized comments</strong>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrItalicComment = 'on'
-</code></pre></div></div>
-
-<p>Disable highlighted <strong>current line number</strong>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrCursorLineNr = 'off'
-</code></pre></div></div>
-
-<p>Disable the highlighted <strong>line number background</strong>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let g:vimspectrLineNr = 'off'
-</code></pre></div></div>
+<table>
+  <thead>
+    <tr>
+      <th>option</th>
+      <th>vimrc code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>disable highlighted current line number</td>
+      <td><code class="highlighter-rouge">let g:vimspectrCursorLineNr = 'off'</code></td>
+    </tr>
+    <tr>
+      <td>enable muted line numbers</td>
+      <td><code class="highlighter-rouge">let g:vimspectrMuteLineNr = 'on'</code></td>
+    </tr>
+    <tr>
+      <td>disable line number background</td>
+      <td><code class="highlighter-rouge">let g:vimspectrLineNr = 'off'</code></td>
+    </tr>
+    <tr>
+      <td>enable italicized comments</td>
+      <td><code class="highlighter-rouge">let g:vimspectrItalicComment = 'on'</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="terminal">terminal</h2>
 
