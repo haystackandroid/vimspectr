@@ -1,4 +1,4 @@
-#ui::after{content:"vimspectrgrey-light"}
+#ui::before{content:"vimspectrgrey-light"}
 {background:#ffffff}
 #ui{border-left-color:#e8e8e8}
 #comment{color:#8a8a8a}
