@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="vimspectrgrey-dark">
   <head>
-    <title>vimspectr</title>
+    <title>vimspectr theme previewer</title>
     <link rel='stylesheet' href='main.css'>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/wheelnav@1.7.1/js/dist/wheelnav.min.js"></script>
@@ -9,32 +9,32 @@
       window.onload = function () {
         var wheel = new wheelnav("wheel");
         wheel.colors = [
-          "#808080",
+          "#6b6b6b",
           "#8a8a8a",
           "#bf2020",
           "#d42424",
           "#bf7020",
           "#d47c24",
           "#bfbf20",
-          "#d4d435",
+          "#d4d424",
           "#70bf20",
-          "#84d435",
+          "#7cd424",
           "#20bf20",
-          "#35d435",
+          "#24d424",
           "#20bf70",
-          "#35d484",
+          "#24d47c",
           "#20bfbf",
-          "#35d4d4",
+          "#24d4d4",
           "#2070bf",
-          "#3584d4",
+          "#247cd4",
           "#2020bf",
-          "#3535d4",
+          "#2424d4",
           "#7020bf",
-          "#8435d4",
+          "#7c24d4",
           "#bf20bf",
-          "#d435d4",
+          "#d424d4",
           "#bf2070",
-          "#d43584"
+          "#d4247c"
             ];
         wheel.slicePathFunction = slicePath().DonutSlice;
         wheel.clickModeRotate = false;
@@ -44,30 +44,30 @@
         wheel.createWheel(["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]);
         wheel.navigateWheel(0);
         wheel.navItems[0].navigateFunction = function () { document.documentElement.className = "vimspectrgrey-dark"; };
-        wheel.navItems[1].navigateFunction = function () { document.documentElement.className = "vimspectrgrey-light"; };
-        wheel.navItems[2].navigateFunction = function () { document.documentElement.className =  "vimspectr0-dark"; };
-        wheel.navItems[3].navigateFunction = function () { document.documentElement.className =  "vimspectr0-light"; };
-        wheel.navItems[4].navigateFunction = function () { document.documentElement.className =  "vimspectr30-dark"; };
-        wheel.navItems[5].navigateFunction = function () { document.documentElement.className =  "vimspectr30-light"; };
-        wheel.navItems[6].navigateFunction = function () { document.documentElement.className =  "vimspectr60-dark"; };
-        wheel.navItems[7].navigateFunction = function () { document.documentElement.className =  "vimspectr60-light"; };
-        wheel.navItems[8].navigateFunction = function () { document.documentElement.className =  "vimspectr90-dark"; };
-        wheel.navItems[9].navigateFunction = function () { document.documentElement.className =  "vimspectr90-light"; };
-        wheel.navItems[10].navigateFunction = function () { document.documentElement.className =  "vimspectr120-dark"; };
-        wheel.navItems[11].navigateFunction = function () { document.documentElement.className =  "vimspectr120-light"; };
-        wheel.navItems[12].navigateFunction = function () { document.documentElement.className = "vimspectr150-dark"; };
-        wheel.navItems[13].navigateFunction = function () { document.documentElement.className = "vimspectr150-light"; };
-        wheel.navItems[14].navigateFunction = function () { document.documentElement.className = "vimspectr180-dark"; };
-        wheel.navItems[15].navigateFunction = function () { document.documentElement.className = "vimspectr180-light"; };
-        wheel.navItems[16].navigateFunction = function () { document.documentElement.className = "vimspectr210-dark"; };
-        wheel.navItems[17].navigateFunction = function () { document.documentElement.className = "vimspectr210-light"; };
-        wheel.navItems[18].navigateFunction = function () { document.documentElement.className = "vimspectr240-dark"; };
-        wheel.navItems[19].navigateFunction = function () { document.documentElement.className = "vimspectr240-light"; };
-        wheel.navItems[20].navigateFunction = function () { document.documentElement.className = "vimspectr270-dark"; };
-        wheel.navItems[21].navigateFunction = function () { document.documentElement.className = "vimspectr270-light"; };
-        wheel.navItems[22].navigateFunction = function () { document.documentElement.className = "vimspectr300-dark"; };
-        wheel.navItems[23].navigateFunction = function () { document.documentElement.className = "vimspectr300-light"; };
-        wheel.navItems[24].navigateFunction = function () { document.documentElement.className = "vimspectr330-dark"; };
+        wheel.navItems[13].navigateFunction = function () { document.documentElement.className = "vimspectrgrey-light"; };
+        wheel.navItems[1].navigateFunction = function () { document.documentElement.className =  "vimspectr0-dark"; };
+        wheel.navItems[14].navigateFunction = function () { document.documentElement.className =  "vimspectr0-light"; };
+        wheel.navItems[2].navigateFunction = function () { document.documentElement.className =  "vimspectr30-dark"; };
+        wheel.navItems[15].navigateFunction = function () { document.documentElement.className =  "vimspectr30-light"; };
+        wheel.navItems[3].navigateFunction = function () { document.documentElement.className =  "vimspectr60-dark"; };
+        wheel.navItems[16].navigateFunction = function () { document.documentElement.className =  "vimspectr60-light"; };
+        wheel.navItems[4].navigateFunction = function () { document.documentElement.className =  "vimspectr90-dark"; };
+        wheel.navItems[17].navigateFunction = function () { document.documentElement.className =  "vimspectr90-light"; };
+        wheel.navItems[5].navigateFunction = function () { document.documentElement.className =  "vimspectr120-dark"; };
+        wheel.navItems[18].navigateFunction = function () { document.documentElement.className =  "vimspectr120-light"; };
+        wheel.navItems[6].navigateFunction = function () { document.documentElement.className = "vimspectr150-dark"; };
+        wheel.navItems[19].navigateFunction = function () { document.documentElement.className = "vimspectr150-light"; };
+        wheel.navItems[7].navigateFunction = function () { document.documentElement.className = "vimspectr180-dark"; };
+        wheel.navItems[20].navigateFunction = function () { document.documentElement.className = "vimspectr180-light"; };
+        wheel.navItems[8].navigateFunction = function () { document.documentElement.className = "vimspectr210-dark"; };
+        wheel.navItems[21].navigateFunction = function () { document.documentElement.className = "vimspectr210-light"; };
+        wheel.navItems[9].navigateFunction = function () { document.documentElement.className = "vimspectr240-dark"; };
+        wheel.navItems[22].navigateFunction = function () { document.documentElement.className = "vimspectr240-light"; };
+        wheel.navItems[10].navigateFunction = function () { document.documentElement.className = "vimspectr270-dark"; };
+        wheel.navItems[23].navigateFunction = function () { document.documentElement.className = "vimspectr270-light"; };
+        wheel.navItems[11].navigateFunction = function () { document.documentElement.className = "vimspectr300-dark"; };
+        wheel.navItems[24].navigateFunction = function () { document.documentElement.className = "vimspectr300-light"; };
+        wheel.navItems[12].navigateFunction = function () { document.documentElement.className = "vimspectr330-dark"; };
         wheel.navItems[25].navigateFunction = function () { document.documentElement.className = "vimspectr330-light"; };
       };
     </script>
