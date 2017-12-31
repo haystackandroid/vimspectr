@@ -229,6 +229,11 @@ endif
 if exists('g:vimspectrMuteLineNr')
   if g:vimspectrMuteLineNr == 'on'
     cal <sid>h('LineNr'          , s:g3, s:g1, s:t3, s:t1, 'none'     , ''  )
+    if exists('g:vimspectrCursorLineNr')
+      if g:vimspectrCursorLineNr == 'off'
+        cal <sid>h('CursorLineNr', s:g3, s:g1, s:t3, s:t1, 'none'     , ''  )
+      endif
+    endif
   endif
 endif
 
@@ -239,6 +244,7 @@ if exists('g:vimspectrLineNr')
     cal <sid>h('LineNr'          , s:g4, s:g0, s:t4, s:t0, 'none'     , ''  )
     if exists('g:vimspectrMuteLineNr')
       if g:vimspectrMuteLineNr == 'on'
+        cal <sid>h('CursorLineNr', s:g3, s:g0, s:t3, s:t0, 'none'     , ''  )
         cal <sid>h('LineNr'      , s:g3, s:g0, s:t3, s:t0, 'none'     , ''  )
       endif
     endif
