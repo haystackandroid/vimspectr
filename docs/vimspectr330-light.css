@@ -1,9 +1,9 @@
-#background{background:#ffebf5}
-#background{outline-color:#ffebf5}
-#background{border-left-color:#edd5e1}
+#ui::after{content:"vimspectr330-light"}
+{background:#ffebf5}
+#ui{border-left-color:#edd5e1}
 #comment{color:#917985}
-#background{border-bottom-color:#785a69}
-html{color:#785a69}
+#ui{border-bottom-color:#785a69}
+{color:#785a69}
 #col08{color:#e05e4a}
 #col09{color:#d46f35}
 #col0A{background:#e0c470}

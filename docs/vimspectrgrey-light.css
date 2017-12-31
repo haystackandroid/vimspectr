@@ -1,9 +1,9 @@
-#background{background:#ffffff}
-#background{outline-color:#ffffff}
-#background{border-left-color:#e8e8e8}
+#ui::after{content:"vimspectrgrey-light"}
+{background:#ffffff}
+#ui{border-left-color:#e8e8e8}
 #comment{color:#8a8a8a}
-#background{border-bottom-color:#6b6b6b}
-html{color:#6b6b6b}
+#ui{border-bottom-color:#6b6b6b}
+{color:#6b6b6b}
 #col08{color:#e05e4a}
 #col09{color:#d46f35}
 #col0A{background:#e0c470}
