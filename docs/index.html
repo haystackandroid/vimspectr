@@ -3,7 +3,6 @@
   <head>
     <title>vimspectr theme previewer</title>
     <link rel='stylesheet' href='main.css'>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/wheelnav@1.7.1/js/dist/wheelnav.min.js"></script>
     <script type="text/javascript">
       window.onload = function () {
@@ -39,7 +38,7 @@
         wheel.slicePathFunction = slicePath().DonutSlice;
         wheel.clickModeRotate = false;
         wheel.sliceSelectedTransformFunction = sliceTransform().MoveMiddleTransform;
-        wheel.animatetime = 432;
+        wheel.animatetime = 420;
         wheel.animateeffect = 'linear';
         wheel.createWheel(["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]);
         wheel.navigateWheel(0);
