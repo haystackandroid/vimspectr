@@ -1,7 +1,8 @@
 html{font-family:monospace;background:#8a8a8a;padding-top:2rem}
-#ui{font-size:1.33rem;max-width:30rem;margin:0 auto;border-left:1rem solid black;border-bottom:1rem solid black;padding:1rem}
-#theme::before{font-size:2rem;padding:2rem 0;text-align:center}
-html,p{transition-duration:0.5s}
+#ui{font-size:1.33rem;max-width:36rem;margin:0 auto;border-left:1rem solid black;border-bottom:1rem solid black;padding:1rem 2rem}
+#theme{text-align:center}
+#theme::before{font-size:2rem;padding:2rem 0}
+html,p{transition-duration:0.42s}
 
 #wheel {
   height: 400px;
