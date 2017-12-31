@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>vimspectr</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/wheelnav@1.7.1/js/dist/wheelnav.min.js"></script>
+  </head>
+  <body>
+    <div id="wheel">
+      <script type="text/javascript">
+        window.onload = function () {
+          var wheel = new wheelnav("wheelDiv");
+          wheel.colors = ["#8a8a8a", "#d43535", "#d48435", "#d4d435", "#84d435", "#35d435", "#35d484", "#35d4d4", "#3584d4", "#3535d4", "#8435d4", "#d435d4", "#d43584"];
+          wheel.slicePathFunction = slicePath().DonutSlice;
+          wheel.clickModeRotate = false;
+          wheel.sliceSelectedTransformFunction = sliceTransform().MoveMiddleTransform;
+          wheel.animatetime = 432;
+          wheel.animateeffect = 'linear';
+          wheel.createWheel(["", "", "", "", "", "", "", "", "", "", "", "", ""]);
+          wheel.navigateWheel(0);
+          wheel.navItems[1].navigateFunction = function () { document.getElementById("wheel").className = "red"; };
+        };
+      </script>
+    </div>
+  </body>
+</html>
