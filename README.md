@@ -6,12 +6,12 @@
 
 <h1 id="vimspectr">vimspectr</h1>
 
-<p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of a dark/light pair for each of the following hues.</p>
+<p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of a dark/light pair for each of the following hues:</p>
 
 <table>
   <thead>
     <tr>
-      <th>none</th>
+      <th>-</th>
       <th>0°</th>
       <th>30°</th>
       <th>60°</th>
@@ -60,7 +60,7 @@
   </tbody>
 </table>
 
-<h3 id="vimspectr-theme-previewer"><a href="https://nightsense.github.io/vimspectr/">vimspectr theme previewer</a></h3>
+<p><a href="https://nightsense.github.io/vimspectr/">Click here for the vimspectr theme previewer.</a></p>
 
 <h2 id="setup">setup</h2>
 
