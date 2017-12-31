@@ -60,7 +60,7 @@
   </tbody>
 </table>
 
-<p><a href="https://nightsense.github.io/vimspectr/">Click here for the vimspectr theme previewer.</a></p>
+<p><strong><a href="https://nightsense.github.io/vimspectr/">Click here for the vimspectr theme previewer.</a></strong></p>
 
 <h2 id="setup">setup</h2>
 
