@@ -1,4 +1,6 @@
+*{transition-duration:0.432s}
 html{font-family:monospace;background:#8a8a8a}
+#ui{font-size:1.5rem;max-width:30rem;margin:0 auto;border-left:1rem solid black;border-bottom:1rem solid black}
 
 #wheel {
   height: 400px;
