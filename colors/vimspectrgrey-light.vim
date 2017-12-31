@@ -76,15 +76,7 @@ endif
 " clear old theme
 hi clear
 syntax reset
-
-" set new theme
-set background=light
-augroup VimspectrThemeSet
-   autocmd!
-   autocmd CursorMoved * execute 'if !exists("colors_name") |
-         \ colorscheme vimspectrgrey-light | endif'
-augroup END
-let colors_name = 'vimspectrgrey-light'
+let g:colors_name = 'vimspectrgrey-light'
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)
