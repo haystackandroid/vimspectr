@@ -6,132 +6,65 @@
 
 <h1 id="vimspectr">vimspectr</h1>
 
-<p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of:</p>
+<p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of a dark/light pair for each of the following hues.</p>
 
 <ul>
-  <li>a dark/light theme pair for each of <strong>12 hues</strong>, evenly spaced around the colour wheel</li>
-  <li>a dark/light theme pair in <strong>greyscale</strong></li>
+  <li>
+    <table>
+      <thead>
+        <tr>
+          <th>0°</th>
+          <th>30°</th>
+          <th>60°</th>
+          <th>90°</th>
+          <th>120°</th>
+          <th>150°</th>
+          <th>180°</th>
+          <th>210°</th>
+          <th>240°</th>
+          <th>270°</th>
+          <th>300°</th>
+          <th>330°</th>
+          <th> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="http://www.colorhexa.com/bfbfbf.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /></td>
+          <td><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /></td>
+        </tr>
+        <tr>
+          <td>red</td>
+          <td>orange</td>
+          <td>yellow</td>
+          <td>lawn green</td>
+          <td>green</td>
+          <td>sea green</td>
+          <td>aqua</td>
+          <td>sky blue</td>
+          <td>blue</td>
+          <td>purple</td>
+          <td>pink</td>
+          <td>rose</td>
+          <td> </td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
 </ul>
 
-<table>
-  <thead>
-    <tr>
-      <th>grey</th>
-      <th>0</th>
-      <th>30</th>
-      <th>60</th>
-      <th>90</th>
-      <th>120</th>
-      <th>150</th>
-      <th>180</th>
-      <th>210</th>
-      <th>240</th>
-      <th>270</th>
-      <th>300</th>
-      <th>330</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/d4d4d4.png" height="24" width="36" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>red</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr0-dark.html">vimspectr0-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr0-light.html">vimspectr0-light</a></td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>orange</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr30-dark.html">vimspectr30-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr30-light.html">vimspectr30-light</a></td>
-    </tr>
-    <tr>
-      <td>60</td>
-      <td>yellow</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr60-dark.html">vimspectr60-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr60-light.html">vimspectr60-light</a></td>
-    </tr>
-    <tr>
-      <td>90</td>
-      <td>lawn green</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr90-dark.html">vimspectr90-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr90-light.html">vimspectr90-light</a></td>
-    </tr>
-    <tr>
-      <td>120</td>
-      <td>green</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr120-dark.html">vimspectr120-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr120-light.html">vimspectr120-light</a></td>
-    </tr>
-    <tr>
-      <td>150</td>
-      <td>sea green</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr150-dark.html">vimspectr150-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr150-light.html">vimspectr150-light</a></td>
-    </tr>
-    <tr>
-      <td>180</td>
-      <td>aqua</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr180-dark.html">vimspectr180-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr180-light.html">vimspectr180-light</a></td>
-    </tr>
-    <tr>
-      <td>210</td>
-      <td>sky blue</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr210-dark.html">vimspectr210-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr210-light.html">vimspectr210-light</a></td>
-    </tr>
-    <tr>
-      <td>240</td>
-      <td>blue</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr240-dark.html">vimspectr240-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr240-light.html">vimspectr240-light</a></td>
-    </tr>
-    <tr>
-      <td>270</td>
-      <td>purple</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr270-dark.html">vimspectr270-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr270-light.html">vimspectr270-light</a></td>
-    </tr>
-    <tr>
-      <td>300</td>
-      <td>pink</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr300-dark.html">vimspectr300-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr300-light.html">vimspectr300-light</a></td>
-    </tr>
-    <tr>
-      <td>330</td>
-      <td>rose</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr330-dark.html">vimspectr330-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectr330-light.html">vimspectr330-light</a></td>
-    </tr>
-    <tr>
-      <td>none</td>
-      <td>grey</td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectrgrey-dark.html">vimspectrgrey-dark</a></td>
-      <td><a href="https://nightsense.github.io/vimspectr/vimspectrgrey-light.html">vimspectrgrey-light</a></td>
-    </tr>
-  </tbody>
-</table>
+<p><a href="https://nightsense.github.io/vimspectr/">You can preview all vimspectr themes here.</a></p>
 
 <h2 id="setup">setup</h2>
 
