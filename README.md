@@ -207,7 +207,7 @@ exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
 
 <h3 id="shell-configuration">shell configuration</h3>
 
-<p>This step configures your shell to load a vimspectr terminal theme on startup. Note that this step is not required for terminal vim.</p>
+<p>This step configures your shell to load a vimspectr terminal theme on startup (not required for terminal vim).</p>
 
 <blockquote>
   <p>Don’t forget to enable vimspectr terminal support by <a href="https://github.com/nightsense/vimspectr#installation">creating the required symlink</a>.</p>
@@ -224,12 +224,26 @@ exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
   <p>On <a href="http://hayne.net/MacDev/Notes/unixFAQ.html#shellStartup">macOS</a>, where <code class="highlighter-rouge">~/.bashrc</code> is not sourced automatically, you can add this line to <code class="highlighter-rouge">~/.bash_profile</code> instead.</p>
 </blockquote>
 
+<blockquote>
+  <p>To load a <strong>random vimspectr theme</strong> each time you open a bash terminal, add the following to <code class="highlighter-rouge">~/.bashrc</code>:</p>
+
+  <p>vimspectr_theme=$(ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
+[ -n “$PS1” ] &amp;&amp; sh ~/.vimspectr-shell/$vimspectr_theme</p>
+</blockquote>
+
 <p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if status --is-interactive; sh ~/.vimspectr-shell/THEME; end
 </code></pre></div></div>
 
 <p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vimspectr-shell/vimspectr210-dark</code>).</p>
+
+<blockquote>
+  <p>To load a <strong>random vimspectr theme</strong> each time you open a fish terminal, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
+
+  <p>set vimspectr_theme (ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
+if status –is-interactive; sh ~/.vimspectr-shell/$vimspectr_theme; end</p>
+</blockquote>
 
 <h3 id="restoring-shell-theme-on-vim-exit">restoring shell theme on vim exit</h3>
 
