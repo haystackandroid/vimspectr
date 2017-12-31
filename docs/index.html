@@ -8,13 +8,40 @@
     <script type="text/javascript">
       window.onload = function () {
         var wheel = new wheelnav("wheel");
-        wheel.colors = ["#8a8a8a", "#8a8a8a", "#d43535", "#d43535", "#d48435", "#d48435", "#d4d435", "#d4d435", "#84d435", "#84d435", "#35d435", "#35d435", "#35d484", "#35d484", "#35d4d4", "#35d4d4", "#3584d4", "#3584d4", "#3535d4", "#3535d4", "#8435d4", "#8435d4", "#d435d4", "#d435d4", "#d43584", "#d43584"];
+        wheel.colors = [
+          "#8a8a8a",
+          "#8a8a8a",
+          "#d43535",
+          "#d43535",
+          "#d48435",
+          "#d48435",
+          "#d4d435",
+          "#d4d435",
+          "#84d435",
+          "#84d435",
+          "#35d435",
+          "#35d435",
+          "#35d484",
+          "#35d484",
+          "#35d4d4",
+          "#35d4d4",
+          "#3584d4",
+          "#3584d4",
+          "#3535d4",
+          "#3535d4",
+          "#8435d4",
+          "#8435d4",
+          "#d435d4",
+          "#d435d4",
+          "#d43584",
+          "#d43584"
+            ];
         wheel.slicePathFunction = slicePath().DonutSlice;
         wheel.clickModeRotate = false;
         wheel.sliceSelectedTransformFunction = sliceTransform().MoveMiddleTransform;
         wheel.animatetime = 432;
         wheel.animateeffect = 'linear';
-        wheel.createWheel(["", "", "", "", "", "", "", "", "", "", "", "", ""]);
+        wheel.createWheel(["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]);
         wheel.navigateWheel(0);
         wheel.navItems[0].navigateFunction = function () { document.documentElement.className = "vimspectrgrey-dark"; };
         wheel.navItems[1].navigateFunction = function () { document.documentElement.className = "vimspectrgrey-light"; };
