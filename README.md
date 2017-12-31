@@ -13,93 +13,88 @@
   <li>a dark/light theme pair in <strong>greyscale</strong></li>
 </ul>
 
+<p><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /> | <img src="http://www.colorhexa.com/d4d4d4.png" height="24" width="36" />
+—|—|—|—|—|—|—|—|—|—|—|—</p>
+
 <table>
-  <thead>
-    <tr>
-      <th style="text-align: center">hue</th>
-      <th style="text-align: center">colour name</th>
-      <th style="text-align: center">preview dark theme</th>
-      <th style="text-align: center">preview light theme</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d43535.png" height="24" width="36" /> 0</td>
-      <td style="text-align: center">red</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr0-dark.html">vimspectr0-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr0-light.html">vimspectr0-light</a></td>
+      <td>0</td>
+      <td>red</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr0-dark.html">vimspectr0-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr0-light.html">vimspectr0-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d48435.png" height="24" width="36" /> 30</td>
-      <td style="text-align: center">orange</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr30-dark.html">vimspectr30-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr30-light.html">vimspectr30-light</a></td>
+      <td>30</td>
+      <td>orange</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr30-dark.html">vimspectr30-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr30-light.html">vimspectr30-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d435.png" height="24" width="36" /> 60</td>
-      <td style="text-align: center">yellow</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr60-dark.html">vimspectr60-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr60-light.html">vimspectr60-light</a></td>
+      <td>60</td>
+      <td>yellow</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr60-dark.html">vimspectr60-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr60-light.html">vimspectr60-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/84d435.png" height="24" width="36" /> 90</td>
-      <td style="text-align: center">lawn green</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr90-dark.html">vimspectr90-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr90-light.html">vimspectr90-light</a></td>
+      <td>90</td>
+      <td>lawn green</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr90-dark.html">vimspectr90-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr90-light.html">vimspectr90-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/35d435.png" height="24" width="36" /> 120</td>
-      <td style="text-align: center">green</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr120-dark.html">vimspectr120-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr120-light.html">vimspectr120-light</a></td>
+      <td>120</td>
+      <td>green</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr120-dark.html">vimspectr120-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr120-light.html">vimspectr120-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/35d484.png" height="24" width="36" /> 150</td>
-      <td style="text-align: center">sea green</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr150-dark.html">vimspectr150-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr150-light.html">vimspectr150-light</a></td>
+      <td>150</td>
+      <td>sea green</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr150-dark.html">vimspectr150-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr150-light.html">vimspectr150-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/35d4d4.png" height="24" width="36" /> 180</td>
-      <td style="text-align: center">aqua</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr180-dark.html">vimspectr180-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr180-light.html">vimspectr180-light</a></td>
+      <td>180</td>
+      <td>aqua</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr180-dark.html">vimspectr180-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr180-light.html">vimspectr180-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3584d4.png" height="24" width="36" /> 210</td>
-      <td style="text-align: center">sky blue</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr210-dark.html">vimspectr210-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr210-light.html">vimspectr210-light</a></td>
+      <td>210</td>
+      <td>sky blue</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr210-dark.html">vimspectr210-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr210-light.html">vimspectr210-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3535d4.png" height="24" width="36" /> 240</td>
-      <td style="text-align: center">blue</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr240-dark.html">vimspectr240-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr240-light.html">vimspectr240-light</a></td>
+      <td>240</td>
+      <td>blue</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr240-dark.html">vimspectr240-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr240-light.html">vimspectr240-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/8435d4.png" height="24" width="36" /> 270</td>
-      <td style="text-align: center">purple</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr270-dark.html">vimspectr270-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr270-light.html">vimspectr270-light</a></td>
+      <td>270</td>
+      <td>purple</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr270-dark.html">vimspectr270-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr270-light.html">vimspectr270-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d435d4.png" height="24" width="36" /> 300</td>
-      <td style="text-align: center">pink</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr300-dark.html">vimspectr300-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr300-light.html">vimspectr300-light</a></td>
+      <td>300</td>
+      <td>pink</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr300-dark.html">vimspectr300-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr300-light.html">vimspectr300-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d43584.png" height="24" width="36" /> 330</td>
-      <td style="text-align: center">rose</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr330-dark.html">vimspectr330-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectr330-light.html">vimspectr330-light</a></td>
+      <td>330</td>
+      <td>rose</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr330-dark.html">vimspectr330-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectr330-light.html">vimspectr330-light</a></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d4d4d4.png" height="24" width="36" /> none</td>
-      <td style="text-align: center">grey</td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectrgrey-dark.html">vimspectrgrey-dark</a></td>
-      <td style="text-align: center"><a href="https://nightsense.github.io/vimspectr/vimspectrgrey-light.html">vimspectrgrey-light</a></td>
+      <td>none</td>
+      <td>grey</td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectrgrey-dark.html">vimspectrgrey-dark</a></td>
+      <td><a href="https://nightsense.github.io/vimspectr/vimspectrgrey-light.html">vimspectrgrey-light</a></td>
     </tr>
   </tbody>
 </table>
