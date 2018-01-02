@@ -73,7 +73,7 @@ if filereadable(expand('~/.vimspectr-shell/vimspectr240-light'))
   endif
 endif
 
-" clear old theme / set new
+" clear old theme + set new
 hi clear
 syntax reset
 let g:colors_name = 'vimspectr240-light'
@@ -91,49 +91,45 @@ endfun
 
 " == SET BASE COLOURS =========================================================
 
-" 0/3
-cal <sid>h('Comment'         , s:g3, ''  , s:t3, ''  , 'none'     , ''  )
-cal <sid>h('Conceal'         , s:g3, ''  , s:t3, ''  , 'none'     , ''  )
-cal <sid>h('CursorLineNr'    , s:g0, s:g3, s:t0, s:t3, 'none'     , ''  )
-cal <sid>h('DiffChange'      , s:g3, s:g0, s:t3, s:t0, 'none'     , ''  )
-cal <sid>h('EndOfBuffer'     , s:g3, ''  , s:t3, ''  , 'none'     , ''  )
-cal <sid>h('Ignore'          , s:g3, ''  , s:t3, ''  , 'none'     , ''  )
-cal <sid>h('NonText'         , s:g3, ''  , s:t3, ''  , 'none'     , ''  )
+" 0+2/3
+cal <sid>h('Comment'         , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
+cal <sid>h('Conceal'         , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
+cal <sid>h('CursorLineNr'    , s:g0, s:g2, s:t0, s:t2, 'none'     , ''  )
+cal <sid>h('DiffChange'      , s:g2, s:g0, s:t2, s:t0, 'none'     , ''  )
+cal <sid>h('EndOfBuffer'     , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
+cal <sid>h('Ignore'          , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
+cal <sid>h('NonText'         , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
 
-" 0/4
-cal <sid>h('Cursor'          , s:g0, s:g4, s:t0, s:t4, 'none'     , ''  )
-cal <sid>h('StatusLine'      , s:g0, s:g4, s:t0, s:t4, 'none'     , ''  )
-cal <sid>h('StatusLineTerm'  , s:g0, s:g4, s:t0, s:t4, 'none'     , ''  )
-cal <sid>h('TabLineSel'      , s:g0, s:g4, s:t0, s:t4, 'none'     , ''  )
-cal <sid>h('TermCursor'      , s:g0, s:g4, s:t0, s:t4, 'none'     , ''  )
-
-" 0/5
+" 0+4/5
 cal <sid>h('Bold'            , ''  , ''  , ''  , ''  , 'bold'     , ''  )
+cal <sid>h('Cursor'          , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
 cal <sid>h('Directory'       , s:g5, ''  , s:t5, ''  , 'bold'     , ''  )
 cal <sid>h('Italic'          , ''  , ''  , ''  , ''  , 'italic'   , ''  )
 cal <sid>h('Normal'          , s:g5, s:g0, s:t5, s:t0, 'none'     , ''  )
+cal <sid>h('StatusLine'      , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
+cal <sid>h('StatusLineTerm'  , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
+cal <sid>h('TabLineSel'      , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
+cal <sid>h('TermCursor'      , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
 cal <sid>h('Underlined'      , s:g5, ''  , s:t5, ''  , 'underline', ''  )
 
-" 1/4
-cal <sid>h('FoldColumn'      , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
-cal <sid>h('Folded'          , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
-cal <sid>h('LineNr'          , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
-cal <sid>h('SignColumn'      , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
-cal <sid>h('TabLine'         , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
-cal <sid>h('VisualNOS'       , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
-
-" 1/5
+" 1+4/5
 cal <sid>h('ColorColumn'     , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
 cal <sid>h('CursorColumn'    , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
 cal <sid>h('CursorLine'      , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
+cal <sid>h('FoldColumn'      , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
+cal <sid>h('Folded'          , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
+cal <sid>h('LineNr'          , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
 cal <sid>h('MatchParen'      , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
 cal <sid>h('QuickFixLine'    , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
+cal <sid>h('SignColumn'      , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
 cal <sid>h('StatusLineNC'    , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
 cal <sid>h('StatusLineTermNC', s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
+cal <sid>h('TabLine'         , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
 cal <sid>h('TabLineFill'     , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
 cal <sid>h('TermCursorNC'    , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
+cal <sid>h('VisualNOS'       , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
 
-" 2/6
+" 2/3+6
 cal <sid>h('Pmenu'           , s:g6, s:g2, s:t6, s:t2, 'none'     , ''  )
 cal <sid>h('PmenuSel'        , s:g0, s:g6, s:t0, s:t6, 'none'     , ''  )
 cal <sid>h('Visual'          , s:g6, s:g2, s:t6, s:t2, 'none'     , ''  )
