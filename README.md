@@ -351,7 +351,7 @@ done'
 </table>
 
   <p><img src="http://www.colorhexa.com/e05e4a.png" height="24" width="42" />
-<strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
+<strong>Red</strong>, the colour of alarm, is for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
 
   <p><img src="http://www.colorhexa.com/d46f35.png" height="24" width="42" />
 <strong>Orange</strong>, the colour of fire, can be associated with preliminary “warmup” activity. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
