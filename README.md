@@ -320,7 +320,7 @@ done'
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/6b6b6b.png" height="24" width="42" /> <code class="highlighter-rouge">6b6b6b</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/ab9555.png" height="24" width="42" /> <code class="highlighter-rouge">ab9555</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/e0c470.png" height="24" width="42" /> <code class="highlighter-rouge">e0c470</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/e0ba4a.png" height="24" width="42" /> <code class="highlighter-rouge">e0ba4a</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/8a8a8a.png" height="24" width="42" /> <code class="highlighter-rouge">8a8a8a</code> </td>
@@ -356,7 +356,7 @@ done'
   <p><img src="http://www.colorhexa.com/d46f35.png" height="24" width="42" />
 <strong>Orange</strong>, the colour of fire, can be associated with preliminary “warmup” activity. Orange is therefore used for <strong>preliminary elements</strong>, such as preprocessor commands (which prepare data to be handled by another program), incremental searching (that is, a search term in the process of being typed), titles, and miscapitalized words.</p>
 
-  <p><img src="http://www.colorhexa.com/e0c470.png" height="24" width="42" />
+  <p><img src="http://www.colorhexa.com/e0ba4a.png" height="24" width="42" />
 <strong>Yellow</strong>, a classic highlighting colour, is applied to elements that are not warnings, yet should draw attention with high visibility. These <strong>highlighted elements</strong> include search results, task tags (<code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">FIXME</code>…), and diff changes.</p>
 
   <p><img src="http://www.colorhexa.com/349e42.png" height="24" width="42" />
