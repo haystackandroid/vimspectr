@@ -91,7 +91,7 @@ endfun
 
 " == SET BASE COLOURS =========================================================
 
-" 0+2/3
+" standard bg + muted glyphs
 cal <sid>h('Comment'         , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
 cal <sid>h('Conceal'         , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
 cal <sid>h('CursorLineNr'    , s:g0, s:g2, s:t0, s:t2, 'none'     , ''  )
@@ -100,7 +100,7 @@ cal <sid>h('EndOfBuffer'     , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
 cal <sid>h('Ignore'          , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
 cal <sid>h('NonText'         , s:g2, ''  , s:t2, ''  , 'none'     , ''  )
 
-" 0+4/5
+" standard bg + standard glyphs
 cal <sid>h('Bold'            , ''  , ''  , ''  , ''  , 'bold'     , ''  )
 cal <sid>h('Cursor'          , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
 cal <sid>h('Directory'       , s:g5, ''  , s:t5, ''  , 'bold'     , ''  )
@@ -112,7 +112,7 @@ cal <sid>h('TabLineSel'      , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
 cal <sid>h('TermCursor'      , s:g0, s:g5, s:t0, s:t5, 'none'     , ''  )
 cal <sid>h('Underlined'      , s:g5, ''  , s:t5, ''  , 'underline', ''  )
 
-" 1+4/5
+" highlighted bg + standard glyphs
 cal <sid>h('ColorColumn'     , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
 cal <sid>h('CursorColumn'    , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
 cal <sid>h('CursorLine'      , ''  , s:g1, ''  , s:t1, 'none'     , ''  )
@@ -137,7 +137,7 @@ cal <sid>h('WildMenu'        , s:g0, s:g6, s:t0, s:t6, 'none'     , ''  )
 
 " N/N
 cal <sid>h('PmenuSbar'       , s:g1, s:g1, s:t1, s:t1, 'none'     , ''  )
-cal <sid>h('PmenuThumb'      , s:g4, s:g4, s:t4, s:t4, 'none'     , ''  )
+cal <sid>h('PmenuThumb'      , s:g5, s:g5, s:t5, s:t5, 'none'     , ''  )
 cal <sid>h('VertSplit'       , s:g2, s:g2, s:t2, s:t2, 'none'     , ''  )
 
 
@@ -217,17 +217,17 @@ cal <sid>h('Identifier'      , s:gF, ''  , s:tF, ''  , 'none'     , ''  )
 " disable highlighted CursorLineNr
 if exists('g:vimspectrCursorLineNr')
   if g:vimspectrCursorLineNr == 'off'
-    cal <sid>h('CursorLineNr'    , s:g4, s:g1, s:t4, s:t1, 'none'     , ''  )
+    cal <sid>h('CursorLineNr'    , s:g5, s:g1, s:t5, s:t1, 'none'     , ''  )
   endif
 endif
 
 " mute LineNr
 if exists('g:vimspectrMuteLineNr')
   if g:vimspectrMuteLineNr == 'on'
-    cal <sid>h('LineNr'          , s:g3, s:g1, s:t3, s:t1, 'none'     , ''  )
+    cal <sid>h('LineNr'          , s:g2, s:g1, s:t2, s:t1, 'none'     , ''  )
     if exists('g:vimspectrCursorLineNr')
       if g:vimspectrCursorLineNr == 'off'
-        cal <sid>h('CursorLineNr', s:g3, s:g1, s:t3, s:t1, 'none'     , ''  )
+        cal <sid>h('CursorLineNr', s:g2, s:g1, s:t2, s:t1, 'none'     , ''  )
       endif
     endif
   endif
@@ -236,12 +236,12 @@ endif
 " disable LineNr background completely
 if exists('g:vimspectrLineNr')
   if g:vimspectrLineNr == 'off'
-    cal <sid>h('CursorLineNr'    , s:g4, s:g0, s:t4, s:t0, 'none'     , ''  )
-    cal <sid>h('LineNr'          , s:g4, s:g0, s:t4, s:t0, 'none'     , ''  )
+    cal <sid>h('CursorLineNr'    , s:g5, s:g0, s:t5, s:t0, 'none'     , ''  )
+    cal <sid>h('LineNr'          , s:g5, s:g0, s:t5, s:t0, 'none'     , ''  )
     if exists('g:vimspectrMuteLineNr')
       if g:vimspectrMuteLineNr == 'on'
-        cal <sid>h('CursorLineNr', s:g3, s:g0, s:t3, s:t0, 'none'     , ''  )
-        cal <sid>h('LineNr'      , s:g3, s:g0, s:t3, s:t0, 'none'     , ''  )
+        cal <sid>h('CursorLineNr', s:g2, s:g0, s:t2, s:t0, 'none'     , ''  )
+        cal <sid>h('LineNr'      , s:g2, s:g0, s:t2, s:t0, 'none'     , ''  )
       endif
     endif
   endif
@@ -250,13 +250,13 @@ endif
 " mute StatusLine
 if exists('g:vimspectrMuteStatusLine')
   if g:vimspectrMuteStatusLine == 'on'
-    cal <sid>h('StatusLine'      , s:g0, s:g3, s:t0, s:t3, 'none'     , ''  )
+    cal <sid>h('StatusLine'      , s:g0, s:g2, s:t0, s:t2, 'none'     , ''  )
   endif
 endif
 
 " enable italicized comments
 if exists('g:vimspectrItalicComment')
   if g:vimspectrItalicComment == 'on'
-    cal <sid>h('Comment'         , s:g3, ''  , s:t3, ''  , 'italic'   , ''  )
+    cal <sid>h('Comment'         , s:g2, ''  , s:t2, ''  , 'italic'   , ''  )
   endif
 endif
