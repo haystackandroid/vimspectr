@@ -149,6 +149,10 @@ exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
       <td><code class="highlighter-rouge">let g:vimspectrLineNr = 'off'</code></td>
     </tr>
     <tr>
+      <td>enable muted statusline</td>
+      <td><code class="highlighter-rouge">let g:vimspectrMuteStatusLine = 'on'</code></td>
+    </tr>
+    <tr>
       <td>enable italicized comments</td>
       <td><code class="highlighter-rouge">let g:vimspectrItalicComment = 'on'</code></td>
     </tr>
