@@ -344,7 +344,7 @@ done'
     </tr>
     <tr>
       <td></td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/d46a84.png" height="24" width="42" /> <code class="highlighter-rouge">d46a84</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/ab7280.png" height="24" width="42" /> <code class="highlighter-rouge">ab7280</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/d46a84.png" height="24" width="42" /> <code class="highlighter-rouge">d46a84</code></td>
     </tr>
   </tbody>
