@@ -53,13 +53,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr0-light #github a{color:#947b7b}
 .vimspectr0-light #ui{border-bottom-color:#7a5c5c}
 .vimspectr0-light {color:#7a5c5c}
-.vimspectr0-light #col08{color:#e05e4a}
-.vimspectr0-light #col09{color:#d46f35}
+.vimspectr0-light #col08{color:#eb523b}
+.vimspectr0-light #col09{color:#e06a26}
 .vimspectr0-light #col0A{background:#e0ba4a}
 .vimspectr0-light #col0B{color:#349e42}
-.vimspectr0-light #col0C{color:#259486}
+.vimspectr0-light #col0C{color:#349e90}
 .vimspectr0-light #col0D{color:#4c8eb5}
-.vimspectr0-light #col0E{color:#9969b5}
+.vimspectr0-light #col0E{color:#9c60bf}
 .vimspectr0-light #col0F{color:#d46a84}
 .vimspectr0-light #col0A{color:#2b1d1d}
 .vimspectr30-dark #theme::before{content:"vimspectr30-dark"}
@@ -85,13 +85,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr30-light #github a{color:#8f8377}
 .vimspectr30-light #ui{border-bottom-color:#736456}
 .vimspectr30-light {color:#736456}
-.vimspectr30-light #col08{color:#e05e4a}
-.vimspectr30-light #col09{color:#d46f35}
+.vimspectr30-light #col08{color:#eb523b}
+.vimspectr30-light #col09{color:#e06a26}
 .vimspectr30-light #col0A{background:#e0ba4a}
 .vimspectr30-light #col0B{color:#349e42}
-.vimspectr30-light #col0C{color:#259486}
+.vimspectr30-light #col0C{color:#349e90}
 .vimspectr30-light #col0D{color:#4c8eb5}
-.vimspectr30-light #col0E{color:#9969b5}
+.vimspectr30-light #col0E{color:#9c60bf}
 .vimspectr30-light #col0F{color:#d46a84}
 .vimspectr30-light #col0A{color:#2b241d}
 .vimspectr60-dark #theme::before{content:"vimspectr60-dark"}
@@ -117,13 +117,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr60-light #github a{color:#8a8a72}
 .vimspectr60-light #ui{border-bottom-color:#6b6b50}
 .vimspectr60-light {color:#6b6b50}
-.vimspectr60-light #col08{color:#e05e4a}
-.vimspectr60-light #col09{color:#d46f35}
+.vimspectr60-light #col08{color:#eb523b}
+.vimspectr60-light #col09{color:#e06a26}
 .vimspectr60-light #col0A{background:#e0ba4a}
 .vimspectr60-light #col0B{color:#349e42}
-.vimspectr60-light #col0C{color:#259486}
+.vimspectr60-light #col0C{color:#349e90}
 .vimspectr60-light #col0D{color:#4c8eb5}
-.vimspectr60-light #col0E{color:#9969b5}
+.vimspectr60-light #col0E{color:#9c60bf}
 .vimspectr60-light #col0F{color:#d46a84}
 .vimspectr60-light #col0A{color:#2b2b1d}
 .vimspectr90-dark #theme::before{content:"vimspectr90-dark"}
@@ -149,13 +149,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr90-light #github a{color:#808c74}
 .vimspectr90-light #ui{border-bottom-color:#606e52}
 .vimspectr90-light {color:#606e52}
-.vimspectr90-light #col08{color:#e05e4a}
-.vimspectr90-light #col09{color:#d46f35}
+.vimspectr90-light #col08{color:#eb523b}
+.vimspectr90-light #col09{color:#e06a26}
 .vimspectr90-light #col0A{background:#e0ba4a}
 .vimspectr90-light #col0B{color:#349e42}
-.vimspectr90-light #col0C{color:#259486}
+.vimspectr90-light #col0C{color:#349e90}
 .vimspectr90-light #col0D{color:#4c8eb5}
-.vimspectr90-light #col0E{color:#9969b5}
+.vimspectr90-light #col0E{color:#9c60bf}
 .vimspectr90-light #col0F{color:#d46a84}
 .vimspectr90-light #col0A{color:#242b1d}
 .vimspectr120-dark #theme::before{content:"vimspectr120-dark"}
@@ -181,13 +181,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr120-light #github a{color:#748c74}
 .vimspectr120-light #ui{border-bottom-color:#547054}
 .vimspectr120-light {color:#547054}
-.vimspectr120-light #col08{color:#e05e4a}
-.vimspectr120-light #col09{color:#d46f35}
+.vimspectr120-light #col08{color:#eb523b}
+.vimspectr120-light #col09{color:#e06a26}
 .vimspectr120-light #col0A{background:#e0ba4a}
 .vimspectr120-light #col0B{color:#349e42}
-.vimspectr120-light #col0C{color:#259486}
+.vimspectr120-light #col0C{color:#349e90}
 .vimspectr120-light #col0D{color:#4c8eb5}
-.vimspectr120-light #col0E{color:#9969b5}
+.vimspectr120-light #col0E{color:#9c60bf}
 .vimspectr120-light #col0F{color:#d46a84}
 .vimspectr120-light #col0A{color:#1d2b1d}
 .vimspectr150-dark #theme::before{content:"vimspectr150-dark"}
@@ -213,13 +213,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr150-light #github a{color:#748c80}
 .vimspectr150-light #ui{border-bottom-color:#526e60}
 .vimspectr150-light {color:#526e60}
-.vimspectr150-light #col08{color:#e05e4a}
-.vimspectr150-light #col09{color:#d46f35}
+.vimspectr150-light #col08{color:#eb523b}
+.vimspectr150-light #col09{color:#e06a26}
 .vimspectr150-light #col0A{background:#e0ba4a}
 .vimspectr150-light #col0B{color:#349e42}
-.vimspectr150-light #col0C{color:#259486}
+.vimspectr150-light #col0C{color:#349e90}
 .vimspectr150-light #col0D{color:#4c8eb5}
-.vimspectr150-light #col0E{color:#9969b5}
+.vimspectr150-light #col0E{color:#9c60bf}
 .vimspectr150-light #col0F{color:#d46a84}
 .vimspectr150-light #col0A{color:#1d2b24}
 .vimspectr180-dark #theme::before{content:"vimspectr180-dark"}
@@ -245,13 +245,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr180-light #github a{color:#748c8c}
 .vimspectr180-light #ui{border-bottom-color:#526e6e}
 .vimspectr180-light {color:#526e6e}
-.vimspectr180-light #col08{color:#e05e4a}
-.vimspectr180-light #col09{color:#d46f35}
+.vimspectr180-light #col08{color:#eb523b}
+.vimspectr180-light #col09{color:#e06a26}
 .vimspectr180-light #col0A{background:#e0ba4a}
 .vimspectr180-light #col0B{color:#349e42}
-.vimspectr180-light #col0C{color:#259486}
+.vimspectr180-light #col0C{color:#349e90}
 .vimspectr180-light #col0D{color:#4c8eb5}
-.vimspectr180-light #col0E{color:#9969b5}
+.vimspectr180-light #col0E{color:#9c60bf}
 .vimspectr180-light #col0F{color:#d46a84}
 .vimspectr180-light #col0A{color:#1d2b2b}
 .vimspectr210-dark #theme::before{content:"vimspectr210-dark"}
@@ -277,13 +277,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr210-light #github a{color:#798591}
 .vimspectr210-light #ui{border-bottom-color:#586775}
 .vimspectr210-light {color:#586775}
-.vimspectr210-light #col08{color:#e05e4a}
-.vimspectr210-light #col09{color:#d46f35}
+.vimspectr210-light #col08{color:#eb523b}
+.vimspectr210-light #col09{color:#e06a26}
 .vimspectr210-light #col0A{background:#e0ba4a}
 .vimspectr210-light #col0B{color:#349e42}
-.vimspectr210-light #col0C{color:#259486}
+.vimspectr210-light #col0C{color:#349e90}
 .vimspectr210-light #col0D{color:#4c8eb5}
-.vimspectr210-light #col0E{color:#9969b5}
+.vimspectr210-light #col0E{color:#9c60bf}
 .vimspectr210-light #col0F{color:#d46a84}
 .vimspectr210-light #col0A{color:#1d242b}
 .vimspectr240-dark #theme::before{content:"vimspectr240-dark"}
@@ -309,13 +309,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr240-light #github a{color:#7b7b94}
 .vimspectr240-light #ui{border-bottom-color:#5e5e7d}
 .vimspectr240-light {color:#5e5e7d}
-.vimspectr240-light #col08{color:#e05e4a}
-.vimspectr240-light #col09{color:#d46f35}
+.vimspectr240-light #col08{color:#eb523b}
+.vimspectr240-light #col09{color:#e06a26}
 .vimspectr240-light #col0A{background:#e0ba4a}
 .vimspectr240-light #col0B{color:#349e42}
-.vimspectr240-light #col0C{color:#259486}
+.vimspectr240-light #col0C{color:#349e90}
 .vimspectr240-light #col0D{color:#4c8eb5}
-.vimspectr240-light #col0E{color:#9969b5}
+.vimspectr240-light #col0E{color:#9c60bf}
 .vimspectr240-light #col0F{color:#d46a84}
 .vimspectr240-light #col0A{color:#1d1d2b}
 .vimspectr270-dark #theme::before{content:"vimspectr270-dark"}
@@ -341,13 +341,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr270-light #github a{color:#877b94}
 .vimspectr270-light #ui{border-bottom-color:#6b5c7a}
 .vimspectr270-light {color:#6b5c7a}
-.vimspectr270-light #col08{color:#e05e4a}
-.vimspectr270-light #col09{color:#d46f35}
+.vimspectr270-light #col08{color:#eb523b}
+.vimspectr270-light #col09{color:#e06a26}
 .vimspectr270-light #col0A{background:#e0ba4a}
 .vimspectr270-light #col0B{color:#349e42}
-.vimspectr270-light #col0C{color:#259486}
+.vimspectr270-light #col0C{color:#349e90}
 .vimspectr270-light #col0D{color:#4c8eb5}
-.vimspectr270-light #col0E{color:#9969b5}
+.vimspectr270-light #col0E{color:#9c60bf}
 .vimspectr270-light #col0F{color:#d46a84}
 .vimspectr270-light #col0A{color:#241d2b}
 .vimspectr300-dark #theme::before{content:"vimspectr300-dark"}
@@ -373,13 +373,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr300-light #github a{color:#917991}
 .vimspectr300-light #ui{border-bottom-color:#785a78}
 .vimspectr300-light {color:#785a78}
-.vimspectr300-light #col08{color:#e05e4a}
-.vimspectr300-light #col09{color:#d46f35}
+.vimspectr300-light #col08{color:#eb523b}
+.vimspectr300-light #col09{color:#e06a26}
 .vimspectr300-light #col0A{background:#e0ba4a}
 .vimspectr300-light #col0B{color:#349e42}
-.vimspectr300-light #col0C{color:#259486}
+.vimspectr300-light #col0C{color:#349e90}
 .vimspectr300-light #col0D{color:#4c8eb5}
-.vimspectr300-light #col0E{color:#9969b5}
+.vimspectr300-light #col0E{color:#9c60bf}
 .vimspectr300-light #col0F{color:#d46a84}
 .vimspectr300-light #col0A{color:#2b1d2b}
 .vimspectr330-dark #theme::before{content:"vimspectr330-dark"}
@@ -405,13 +405,13 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectr330-light #github a{color:#917985}
 .vimspectr330-light #ui{border-bottom-color:#785a69}
 .vimspectr330-light {color:#785a69}
-.vimspectr330-light #col08{color:#e05e4a}
-.vimspectr330-light #col09{color:#d46f35}
+.vimspectr330-light #col08{color:#eb523b}
+.vimspectr330-light #col09{color:#e06a26}
 .vimspectr330-light #col0A{background:#e0ba4a}
 .vimspectr330-light #col0B{color:#349e42}
-.vimspectr330-light #col0C{color:#259486}
+.vimspectr330-light #col0C{color:#349e90}
 .vimspectr330-light #col0D{color:#4c8eb5}
-.vimspectr330-light #col0E{color:#9969b5}
+.vimspectr330-light #col0E{color:#9c60bf}
 .vimspectr330-light #col0F{color:#d46a84}
 .vimspectr330-light #col0A{color:#2b1d24}
 .vimspectrgrey-dark #theme::before{content:"vimspectrgrey-dark"}
@@ -437,12 +437,12 @@ html,p,#ui{transition-duration:0.42s;transition-timing-function:linear}
 .vimspectrgrey-light #github a{color:#8a8a8a}
 .vimspectrgrey-light #ui{border-bottom-color:#6b6b6b}
 .vimspectrgrey-light {color:#6b6b6b}
-.vimspectrgrey-light #col08{color:#e05e4a}
-.vimspectrgrey-light #col09{color:#d46f35}
+.vimspectrgrey-light #col08{color:#eb523b}
+.vimspectrgrey-light #col09{color:#e06a26}
 .vimspectrgrey-light #col0A{background:#e0ba4a}
 .vimspectrgrey-light #col0B{color:#349e42}
-.vimspectrgrey-light #col0C{color:#259486}
+.vimspectrgrey-light #col0C{color:#349e90}
 .vimspectrgrey-light #col0D{color:#4c8eb5}
-.vimspectrgrey-light #col0E{color:#9969b5}
+.vimspectrgrey-light #col0E{color:#9c60bf}
 .vimspectrgrey-light #col0F{color:#d46a84}
 .vimspectrgrey-light #col0A{color:#2b2b2b}
