@@ -318,7 +318,14 @@ done'
 
   <p>Accent colours were determined by:</p>
   <ul>
-    <li>selecting hues by eye at the scale of 1/48 (7.5°) colour wheel intervals</li>
+    <li>selecting pure hues (“pure red” etc.) at the scale of 1/12 colour wheel intervals</li>
+    <li>fine-tuning these hues by 1/48 intervals
+      <ul>
+        <li>one interval, clockwise: red, green, purple</li>
+        <li>one interval, counterclockwise: orange, teal, blue</li>
+        <li>two intervals: yellow (counterclockwise), pink (clockwise)</li>
+      </ul>
+    </li>
     <li>applying formulas to obtain saturations and values
       <ul>
         <li>light accent saturation: (((1/24)/1000)*HUE^2)+(((2/24)*HUE)+((15/24)*100)</li>
