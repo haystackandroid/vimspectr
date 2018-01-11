@@ -300,11 +300,38 @@ done'
 <blockquote>
   <h2 id="production-notes">production notes</h2>
 
-  <h3 id="palette">palette</h3>
+  <h3 id="palette-formulas">palette formulas</h3>
 
   <p>Each vimspectr theme consists of 6 theme-specific <strong>base colours</strong> and 8 fixed <strong>accent colours</strong>.</p>
 
-  <p>Base colours are determined through a combination of contrast ratios and (except for the greyscale themes) a saturation curve that rises as base colour darkens. Contrast ratios were selected such that values of the base colours in the greyscale theme would align with 1/24 (4.17%) intervals; saturation levels were also adjusted by 1/24 intervals. For accent colours, saturations and values were adjusted by 1/24 intervals, while hues were selected at the scale of 1/48 (7.5°) colour wheel intervals.</p>
+  <p>Base colours were determined by:</p>
+  <ul>
+    <li>selecting contrast ratios between base colours of the greyscale theme such that their values aligned with 1/24 (4.17%) intervals
+      <ul>
+        <li>the resulting ratios: 18.0, 13.8, 5.2, 3.4, 1.2</li>
+      </ul>
+    </li>
+    <li>adding saturation to the base colours of the remaining themes with a formula, also constructed from 1/24 intervals
+      <ul>
+        <li>the formula: (((12/24)/100)*VALUE^2)+(((-28/24)*VALUE)+((17/24)*100)</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>Accent colours were determined by:</p>
+  <ul>
+    <li>selecting hues by eye at the scale of 1/48 (7.5°) colour wheel intervals</li>
+    <li>applying formulas to obtain saturations and values
+      <ul>
+        <li>light accent saturation: (((1/24)/1000)*HUE^2)+(((2/24)*HUE)+((15/24)*100)</li>
+        <li>light accent value: (((-3/24)/1000)*HUE^2)+(((4/24)*HUE)+((14/24)*100)</li>
+        <li>dark accent saturation: (((2/24)/1000)*HUE^2)+(((1/24)*HUE)+((8/24*100))</li>
+        <li>dark accent value: (((2/24)/1000)*HUE^2)+(((2/24)*HUE)+((11/24*100))</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>…where HUE is given in degrees, running counterclockwise starting from pink (saturation) or clockwise starting from green (value).</p>
 
   <table>
   <thead>
@@ -357,6 +384,13 @@ done'
     </tr>
   </tbody>
 </table>
+</blockquote>
+
+<p><br /></p>
+
+<blockquote>
+
+  <h3 id="accent-colour-logic">accent colour logic</h3>
 
   <p><img src="http://www.colorhexa.com/e8361c.png" height="24" width="42" />
 <strong>Red</strong>, the colour of alarm, is used for <strong>warning elements</strong>, including error messages, misspellings, and diff deletions.</p>
@@ -383,9 +417,11 @@ done'
 <strong>Pink</strong>, the colour of spring blossoms, is used for <strong>object names</strong>, including the names of variables and functions. To code is to bring countless objects blossoming into life as one types their names.</p>
 </blockquote>
 
+<p><br /></p>
+
 <blockquote>
 
-  <h3 id="vimspectr-dircolors-logic">vimspectr dircolors logic</h3>
+  <h3 id="dircolors-logic">dircolors logic</h3>
 
   <ul>
     <li><strong>directories</strong> are <strong>bold</strong>, reflecting their “expanded” role as a “file that contains files”
