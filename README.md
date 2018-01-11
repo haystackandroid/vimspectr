@@ -191,7 +191,7 @@ exe 'colorscheme '.themes[localtime() % len(themes)]
   <p>Don’t forget to enable vimspectr terminal support by <a href="https://github.com/nightsense/vimspectr#installation">creating the required symlink</a>.</p>
 </blockquote>
 
-<p><strong>bash/zsh</strong>: add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>…</p>
+<p>For <strong>bash/zsh</strong>, add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>…</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ -n "$PS1" ] &amp;&amp; sh ~/.vimspectr-shell/THEME
 </code></pre></div></div>
@@ -202,12 +202,10 @@ exe 'colorscheme '.themes[localtime() % len(themes)]
   <p>On <a href="http://hayne.net/MacDev/Notes/unixFAQ.html#shellStartup">macOS</a>, where <code class="highlighter-rouge">~/.bashrc</code> is not sourced automatically, you can add this line to <code class="highlighter-rouge">~/.bash_profile</code> instead.</p>
 </blockquote>
 
-<p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
+<p>For <strong>fish</strong>, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if status --is-interactive; sh ~/.vimspectr-shell/THEME; end
 </code></pre></div></div>
-
-<p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vimspectr-shell/vimspectr210-dark</code>).</p>
 
 <h3 id="randomization-1">randomization</h3>
 
@@ -227,19 +225,17 @@ if status --is-interactive; sh ~/.vimspectr-shell/$vimspectr_theme; end
 
 <p>If <strong>different themes</strong> are used for the shell and terminal vim, the latter theme will persist in the terminal after vim is closed. In order to restore the original shell theme, you can wrap the <code class="highlighter-rouge">vim</code> command in a shell function:</p>
 
-<p><strong>bash/zsh</strong>: add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>…</p>
+<p>For <strong>bash/zsh</strong>, add the following to <code class="highlighter-rouge">~/.bashrc</code> or <code class="highlighter-rouge">~/.zshrc</code>…</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim(){ sh -c "vim $*"; sh ~/.vimspectr-shell/THEME; clear; }
 </code></pre></div></div>
 
 <p>…replacing <code class="highlighter-rouge">THEME</code> with the colourscheme (e.g. <code class="highlighter-rouge">sh ~/.nightshell/vimspectr210-dark</code>) to restore upon exiting vim.</p>
 
-<p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
+<p>For <strong>fish</strong>, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function vim; sh -c "vim $argv"; sh ~/.vimspectr-shell/THEME; clear; end
 </code></pre></div></div>
-
-<p>…replacing <code class="highlighter-rouge">THEME</code> with the colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vimspectr-shell/vimspectr210-dark</code>) to restore upon exiting vim.</p>
 
 <h2 id="optional-steps">optional steps</h2>
 
