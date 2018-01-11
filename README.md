@@ -306,8 +306,6 @@ done'
 
   <p>Base colours are determined through a combination of contrast ratios and (except for the greyscale themes) a saturation curve that rises as base colour darkens. Contrast ratios were selected such that values of the base colours in the greyscale theme would align with 1/24 (4.17%) intervals; saturation levels were also adjusted by 1/24 intervals. For accent colours, saturations and values were adjusted by 1/24 intervals, while hues were selected at the scale of 1/48 (7.5°) colour wheel intervals.</p>
 
-  <p>The <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO 3:1 contrast standard</a> is met by nearly all text/background combinations, exceptions being made for some transient-highlighted backgrounds (e.g. cursorcolumn, cursorline)</p>
-
   <table>
   <thead>
     <tr>
