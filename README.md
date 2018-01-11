@@ -301,8 +301,6 @@ done'
   <h2 id="production-notes">production notes</h2>
 </blockquote>
 
-<p><br /></p>
-
 <blockquote>
   <h3 id="palette-construction">palette construction</h3>
 
