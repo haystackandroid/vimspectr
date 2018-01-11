@@ -209,13 +209,13 @@ exe 'colorscheme '.themes[localtime() % len(themes)]
 
 <h3 id="randomization-1">randomization</h3>
 
-<p>To load a <strong>random vimspectr theme</strong> each time you open a bash terminal, add the following to <code class="highlighter-rouge">~/.bashrc</code>:</p>
+<p>To load a random vimspectr theme on <strong>bash/zsh</strong> startup, add the following to <code class="highlighter-rouge">~/.bashrc</code>:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vimspectr_theme=$(ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
 [ -n "$PS1" ] &amp;&amp; sh ~/.vimspectr-shell/$vimspectr_theme
 </code></pre></div></div>
 
-<p>To load a <strong>random vimspectr theme</strong> each time you open a fish terminal, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
+<p>To load a random vimspectr theme on <strong>fish</strong> startup, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set vimspectr_theme (ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
 if status --is-interactive; sh ~/.vimspectr-shell/$vimspectr_theme; end
