@@ -299,8 +299,12 @@ done'
 
 <blockquote>
   <h2 id="production-notes">production notes</h2>
+</blockquote>
 
-  <h3 id="palette-formulas">palette formulas</h3>
+<p><br /></p>
+
+<blockquote>
+  <h3 id="palette-construction">palette construction</h3>
 
   <p>Each vimspectr theme consists of 6 theme-specific <strong>base colours</strong> and 8 fixed <strong>accent colours</strong>.</p>
 
