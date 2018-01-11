@@ -381,6 +381,9 @@ done'
 
   <p><img src="http://www.colorhexa.com/e05579.png" height="24" width="42" />
 <strong>Pink</strong>, the colour of spring blossoms, is used for <strong>object names</strong>, including the names of variables and functions. To code is to bring countless objects blossoming into life as one types their names.</p>
+</blockquote>
+
+<blockquote>
 
   <h3 id="vimspectr-dircolors-logic">vimspectr dircolors logic</h3>
 
