@@ -126,7 +126,7 @@ exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
     \ 'vimspectr60-dark'  , 'vimspectr90-dark'   , 'vimspectr120-dark' ,
     \ 'vimspectr150-dark' , 'vimspectr180-dark'  , 'vimspectr210-dark' ,
     \ 'vimspectr240-dark' , 'vimspectr270-dark'  , 'vimspectr300-dark' ,
-    \ 'vimspectr330-dark' , 'vimspectrgrey-dark' , 'stellarized_dark'
+    \ 'vimspectr330-dark' , 'vimspectrgrey-dark'
     \ ]
 else
   let themes = [
@@ -134,7 +134,7 @@ else
     \ 'vimspectr60-light' , 'vimspectr90-light'  , 'vimspectr120-light',
     \ 'vimspectr150-light', 'vimspectr180-light' , 'vimspectr210-light',
     \ 'vimspectr240-light', 'vimspectr270-light' , 'vimspectr300-light',
-    \ 'vimspectr330-light', 'vimspectrgrey-light', 'stellarized_light'
+    \ 'vimspectr330-light', 'vimspectrgrey-light'
     \ ]
 endif
 exe 'colorscheme '.themes[localtime() % len(themes)]
