@@ -1,9 +1,3 @@
-<blockquote>
-  <p><strong>Note: config-breaking changes have been made recently. Please read the documentation below in order to update your vimrc.</strong></p>
-
-  <p>(The changes are mostly about simplification. I want to focus on refining a single dark/light pair of themes per hue, rather than having multiple saturation curves and whatnot.)</p>
-</blockquote>
-
 <h1 id="vimspectr">vimspectr</h1>
 
 <p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of a dark/light pair for each of the following hues:</p>
