@@ -308,7 +308,7 @@ done'
 
   <p>Base colours were determined by:</p>
   <ul>
-    <li>selecting contrast ratios such that base values of the greyscale theme aligned with 1/24 intervals</li>
+    <li>selecting contrast ratios such that values of base colours of the greyscale theme aligned with 1/24 intervals</li>
     <li>adding saturation to base colours of remaining themes with a formula, also constructed from 1/24 intervals
       <ul>
         <li>the formula: (((12/24)/100)*VALUE^2)+(((-28/24)*VALUE)+((17/24)*100)</li>
