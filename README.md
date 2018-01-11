@@ -96,10 +96,11 @@ call plug#end()
 
 <p>View the list of <a href="https://github.com/nightsense/vimspectr/tree/master/colors">theme files</a> to see all possible values for <code class="highlighter-rouge">colorscheme</code>.</p>
 
-<blockquote>
-  <p>To load a <strong>random vimspectr theme</strong> each time you start vim, add the following to your <code class="highlighter-rouge">vimrc</code>:</p>
+<h3 id="randomization">randomization</h3>
 
-  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let vimspectr_themes = [
+<p>To load a random vimspectr theme on vim startup:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let vimspectr_themes = [
  \ 'vimspectr0-dark'   , 'vimspectr0-light'   ,
  \ 'vimspectr30-dark'  , 'vimspectr30-light'  ,
  \ 'vimspectr60-dark'  , 'vimspectr60-light'  ,
@@ -115,8 +116,29 @@ call plug#end()
  \ 'vimspectrgrey-dark', 'vimspectrgrey-light',
  \ ]
 exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
-</code></pre></div>  </div>
-</blockquote>
+</code></pre></div></div>
+
+<p>Or get more specific with a random dark theme during the night, random light theme during the day:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if strftime("%H") &lt; 7 || strftime("%H") &gt;= 19
+  let themes = [
+    \ 'vimspectr0-dark'   , 'vimspectr0-dark'    , 'vimspectr30-dark'  ,
+    \ 'vimspectr60-dark'  , 'vimspectr90-dark'   , 'vimspectr120-dark' ,
+    \ 'vimspectr150-dark' , 'vimspectr180-dark'  , 'vimspectr210-dark' ,
+    \ 'vimspectr240-dark' , 'vimspectr270-dark'  , 'vimspectr300-dark' ,
+    \ 'vimspectr330-dark' , 'vimspectrgrey-dark' , 'stellarized_dark'
+    \ ]
+else
+  let themes = [
+    \ 'vimspectr0-light'  , 'vimspectr0-light'   , 'vimspectr30-light' ,
+    \ 'vimspectr60-light' , 'vimspectr90-light'  , 'vimspectr120-light',
+    \ 'vimspectr150-light', 'vimspectr180-light' , 'vimspectr210-light',
+    \ 'vimspectr240-light', 'vimspectr270-light' , 'vimspectr300-light',
+    \ 'vimspectr330-light', 'vimspectrgrey-light', 'stellarized_light'
+    \ ]
+endif
+exe 'colorscheme '.themes[localtime() % len(themes)]
+</code></pre></div></div>
 
 <h3 id="options">options</h3>
 
