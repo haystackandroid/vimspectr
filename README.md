@@ -202,14 +202,6 @@ exe 'colorscheme '.themes[localtime() % len(themes)]
   <p>On <a href="http://hayne.net/MacDev/Notes/unixFAQ.html#shellStartup">macOS</a>, where <code class="highlighter-rouge">~/.bashrc</code> is not sourced automatically, you can add this line to <code class="highlighter-rouge">~/.bash_profile</code> instead.</p>
 </blockquote>
 
-<blockquote>
-  <p>To load a <strong>random vimspectr theme</strong> each time you open a bash terminal, add the following to <code class="highlighter-rouge">~/.bashrc</code>:</p>
-
-  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vimspectr_theme=$(ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
-[ -n "$PS1" ] &amp;&amp; sh ~/.vimspectr-shell/$vimspectr_theme
-</code></pre></div>  </div>
-</blockquote>
-
 <p><strong>fish</strong>: add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>…</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if status --is-interactive; sh ~/.vimspectr-shell/THEME; end
@@ -217,13 +209,19 @@ exe 'colorscheme '.themes[localtime() % len(themes)]
 
 <p>…replacing <code class="highlighter-rouge">THEME</code> with the desired colourscheme (e.g. <code class="highlighter-rouge">sh ~/.vimspectr-shell/vimspectr210-dark</code>).</p>
 
-<blockquote>
-  <p>To load a <strong>random vimspectr theme</strong> each time you open a fish terminal, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
+<h3 id="randomization-1">randomization</h3>
 
-  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set vimspectr_theme (ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
+<p>To load a <strong>random vimspectr theme</strong> each time you open a bash terminal, add the following to <code class="highlighter-rouge">~/.bashrc</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vimspectr_theme=$(ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
+[ -n "$PS1" ] &amp;&amp; sh ~/.vimspectr-shell/$vimspectr_theme
+</code></pre></div></div>
+
+<p>To load a <strong>random vimspectr theme</strong> each time you open a fish terminal, add the following to <code class="highlighter-rouge">~/.config/fish/config.fish</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set vimspectr_theme (ls ~/.vimspectr-shell/ | grep vimspectr | shuf -n1)
 if status --is-interactive; sh ~/.vimspectr-shell/$vimspectr_theme; end
-</code></pre></div>  </div>
-</blockquote>
+</code></pre></div></div>
 
 <h3 id="restoring-shell-theme-on-vim-exit">restoring shell theme on vim exit</h3>
 
