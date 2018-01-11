@@ -118,7 +118,7 @@ call plug#end()
 exe 'colorscheme '.vimspectr_themes[localtime() % len(vimspectr_themes)]
 </code></pre></div></div>
 
-<p>Or get more specific with a random dark theme during the night, random light theme during the day:</p>
+<p>To load a random dark theme during the night, random light theme during the day:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if strftime("%H") &lt; 7 || strftime("%H") &gt;= 19
   let themes = [
