@@ -54,7 +54,7 @@
   </tbody>
 </table>
 
-<p><strong><a href="https://nightsense.github.io/vimspectr/">Click here for the vimspectr theme previewer.</a></strong></p>
+<p><strong><a href="https://nightsense.github.io/vimspectr/">&gt; click here for the vimspectr theme previewer &lt;</a></strong></p>
 
 <h2 id="setup">setup</h2>
 
