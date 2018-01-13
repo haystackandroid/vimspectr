@@ -22,19 +22,19 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="http://www.colorhexa.com/bfbfbf.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/ff0000.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/ff8000.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/ffff00.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/80ff00.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/00ff00.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/00ff80.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/00ffff.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/0080ff.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/0000ff.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/8000ff.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/ff00ff.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/ff0080.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/949494.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/e03838.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/e08c38.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/e0e038.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/699e34.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/349e34.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/349e69.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/349e9e.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/4286c9.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/5454c9.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/9765c9.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/d47bd4.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/e070a8.png" height="24" width="36" /></td>
     </tr>
     <tr>
       <td>grey</td>
