@@ -310,12 +310,8 @@ done'
 
   <p>Base colours were determined by:</p>
   <ul>
-    <li>selecting contrast ratios such that values of base colours of the greyscale theme aligned with 1/24 intervals</li>
-    <li>adding saturation to base colours of remaining themes with a formula, also constructed from 1/24 intervals
-      <ul>
-        <li>the formula: (((12/24)/100)*VALUE^2)+(((-28/24)*VALUE)+((17/24)*100)</li>
-      </ul>
-    </li>
+    <li>selecting contrast ratios such that values of base colours of the greyscale theme align with 1/24 intervals</li>
+    <li>adding saturation to base colours of remaining themes, also observing 1/24 intervals</li>
   </ul>
 
   <p>Accent colours were determined by:</p>
@@ -328,17 +324,13 @@ done'
         <li>two intervals: yellow (counterclockwise), pink (clockwise)</li>
       </ul>
     </li>
-    <li>applying formulas to obtain saturations and values
+    <li>selecting saturations and values at the scale of 1/24 intervals
       <ul>
-        <li>light accent saturation: (((1/24)/1000)*HUE^2)+(((2/24)*HUE)+((15/24)*100)</li>
-        <li>light accent value: (((-3/24)/1000)*HUE^2)+(((4/24)*HUE)+((14/24)*100)</li>
-        <li>dark accent saturation: (((2/24)/1000)*HUE^2)+(((1/24)*HUE)+((8/24*100))</li>
-        <li>dark accent value: (((2/24)/1000)*HUE^2)+(((2/24)*HUE)+((11/24*100))</li>
+        <li>saturation rises as hue transitions counterclockwise from pink to green</li>
+        <li>value rises as hue transitions clockwise from green to pink</li>
       </ul>
     </li>
   </ul>
-
-  <p>…where HUE is given in degrees, running counterclockwise starting from pink (saturation) or clockwise starting from green (value).</p>
 
   <table>
   <thead>
