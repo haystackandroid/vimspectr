@@ -6,43 +6,43 @@
 # linux console
 if [ "${TERM%%-*}" = 'linux' ]; then
   echo -e "\e]P0f5fffa"
-  echo -e "\e]P1e8361c"
-  echo -e "\e]P21b942b"
-  echo -e "\e]P3f2c027"
-  echo -e "\e]P43986b3"
-  echo -e "\e]P59c45cc"
-  echo -e "\e]P62aa694"
-  echo -e "\e]P74f7361"
-  echo -e "\e]P86e8f7e"
-  echo -e "\e]P9eb6b21"
-  echo -e "\e]PAddebe4"
-  echo -e "\e]PB6e8f7e"
-  echo -e "\e]PC4f7361"
-  echo -e "\e]PD162e22"
-  echo -e "\e]PEe05579"
-  echo -e "\e]PF0a1a12"
+  echo -e "\e]P1eb4128"
+  echo -e "\e]P22e9e3d"
+  echo -e "\e]P3ebbb28"
+  echo -e "\e]P43a95c9"
+  echo -e "\e]P59f54c9"
+  echo -e "\e]P62e9e8f"
+  echo -e "\e]P74d7360"
+  echo -e "\e]P86a917e"
+  echo -e "\e]P9eb7028"
+  echo -e "\e]PAd5ebe0"
+  echo -e "\e]PB6a917e"
+  echo -e "\e]PC4d7360"
+  echo -e "\e]PD192e23"
+  echo -e "\e]PEe05e7f"
+  echo -e "\e]PF0b1711"
   echo -e "\e[H"
   echo -e "\e[2J"
   exit 0
 fi
 
 color00="f5/ff/fa" # Base 00 - Black
-color01="e8/36/1c" # Base 08 - Red
-color02="1b/94/2b" # Base 0B - Green
-color03="f2/c0/27" # Base 0A - Yellow
-color04="39/86/b3" # Base 0D - Blue
-color05="9c/45/cc" # Base 0E - Magenta
-color06="2a/a6/94" # Base 0C - Cyan
-color07="4f/73/61" # Base 05 - White
-color08="6e/8f/7e" # Base 03 - Bright Black
-color09="eb/6b/21" # Base 09
-color10="dd/eb/e4" # Base 01
-color11="6e/8f/7e" # Base 02
-color12="4f/73/61" # Base 04
-color13="16/2e/22" # Base 06
-color14="e0/55/79" # Base 0F
-color15="0a/1a/12" # Base 07 - Bright White
-color_foreground="4f/73/61" # Base 05
+color01="eb/41/28" # Base 08 - Red
+color02="2e/9e/3d" # Base 0B - Green
+color03="eb/bb/28" # Base 0A - Yellow
+color04="3a/95/c9" # Base 0D - Blue
+color05="9f/54/c9" # Base 0E - Magenta
+color06="2e/9e/8f" # Base 0C - Cyan
+color07="4d/73/60" # Base 05 - White
+color08="6a/91/7e" # Base 03 - Bright Black
+color09="eb/70/28" # Base 09
+color10="d5/eb/e0" # Base 01
+color11="6a/91/7e" # Base 02
+color12="4d/73/60" # Base 04
+color13="19/2e/23" # Base 06
+color14="e0/5e/7f" # Base 0F
+color15="0b/17/11" # Base 07 - Bright White
+color_foreground="4d/73/60" # Base 05
 color_background="f5/ff/fa" # Base 00
 
 if [ -n "$TMUX" ]; then
@@ -83,11 +83,11 @@ printf $printf_template 15 $color15
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  printf $printf_template_custom Pg 4f7361 # foreground
+  printf $printf_template_custom Pg 4d7360 # foreground
   printf $printf_template_custom Ph f5fffa # background
-  printf $printf_template_custom Pi 4f7361 # bold color
-  printf $printf_template_custom Pj 6e8f7e # selection color
-  printf $printf_template_custom Pk 162e22 # selected text color
+  printf $printf_template_custom Pi 4d7360 # bold color
+  printf $printf_template_custom Pj 6a917e # selection color
+  printf $printf_template_custom Pk 192e23 # selected text color
   printf $printf_template_custom Pl  # cursor
   printf $printf_template_custom Pm f5fffa # cursor text
 else
