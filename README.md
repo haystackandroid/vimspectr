@@ -362,17 +362,17 @@ done'
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/8a8a8a.png" height="24" width="42" /> <code class="highlighter-rouge">8a8a8a</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/44944e.png" height="24" width="42" /> <code class="highlighter-rouge">44944e</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/4a9453.png" height="24" width="42" /> <code class="highlighter-rouge">4a9453</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/289e37.png" height="24" width="42" /> <code class="highlighter-rouge">289e37</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e8e8e8.png" height="24" width="42" /> <code class="highlighter-rouge">e8e8e8</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/449489.png" height="24" width="42" /> <code class="highlighter-rouge">449489</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/4a948a.png" height="24" width="42" /> <code class="highlighter-rouge">4a948a</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/289e8e.png" height="24" width="42" /> <code class="highlighter-rouge">289e8e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/ffffff.png" height="24" width="42" /> <code class="highlighter-rouge">ffffff</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/4f88ab.png" height="24" width="42" /> <code class="highlighter-rouge">4f88ab</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/568cab.png" height="24" width="42" /> <code class="highlighter-rouge">568cab</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/3292c9.png" height="24" width="42" /> <code class="highlighter-rouge">3292c9</code></td>
     </tr>
     <tr>
