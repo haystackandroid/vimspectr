@@ -22,10 +22,10 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="http://www.colorhexa.com/949494.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/ababab.png" height="24" width="36" /></td>
       <td><img src="http://www.colorhexa.com/e03838.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/e08c38.png" height="24" width="36" /></td>
-      <td><img src="http://www.colorhexa.com/e0e038.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/e08326.png" height="24" width="36" /></td>
+      <td><img src="http://www.colorhexa.com/e0e01b.png" height="24" width="36" /></td>
       <td><img src="http://www.colorhexa.com/699e34.png" height="24" width="36" /></td>
       <td><img src="http://www.colorhexa.com/349e34.png" height="24" width="36" /></td>
       <td><img src="http://www.colorhexa.com/349e69.png" height="24" width="36" /></td>
