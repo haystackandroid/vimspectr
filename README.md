@@ -323,9 +323,8 @@ done'
     <li>selecting pure hues (“pure red” etc.) at the scale of 1/12 colour wheel intervals</li>
     <li>fine-tuning these hues by 1/48 intervals
       <ul>
-        <li>one interval, clockwise: red, green, purple</li>
-        <li>one interval, counterclockwise: orange, teal, blue</li>
-        <li>two intervals: yellow (counterclockwise), pink (clockwise)</li>
+        <li>clockwise: red and purple (1 interval), pink (2)</li>
+        <li>counterclockwise: orange and teal (1 interval), yellow (2)</li>
       </ul>
     </li>
     <li>selecting saturations and values at the scale of 1/24 intervals
