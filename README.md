@@ -351,42 +351,42 @@ done'
   <tbody>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/141414.png" height="24" width="42" /> <code class="highlighter-rouge">141414</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/bf4f3f.png" height="24" width="42" /> <code class="highlighter-rouge">bf4f3f</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/bf5749.png" height="24" width="42" /> <code class="highlighter-rouge">bf5749</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/eb4128.png" height="24" width="42" /> <code class="highlighter-rouge">eb4128</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/2b2b2b.png" height="24" width="42" /> <code class="highlighter-rouge">2b2b2b</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/bf6e3f.png" height="24" width="42" /> <code class="highlighter-rouge">bf6e3f</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/bf7449.png" height="24" width="42" /> <code class="highlighter-rouge">bf7449</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/eb7028.png" height="24" width="42" /> <code class="highlighter-rouge">eb7028</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/6b6b6b.png" height="24" width="42" /> <code class="highlighter-rouge">6b6b6b</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/bfa03f.png" height="24" width="42" /> <code class="highlighter-rouge">bfa03f</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/bfa249.png" height="24" width="42" /> <code class="highlighter-rouge">bfa249</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/ebbb28.png" height="24" width="42" /> <code class="highlighter-rouge">ebbb28</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/8a8a8a.png" height="24" width="42" /> <code class="highlighter-rouge">8a8a8a</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3e9449.png" height="24" width="42" /> <code class="highlighter-rouge">3e9449</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/44944e.png" height="24" width="42" /> <code class="highlighter-rouge">44944e</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/289e37.png" height="24" width="42" /> <code class="highlighter-rouge">289e37</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e8e8e8.png" height="24" width="42" /> <code class="highlighter-rouge">e8e8e8</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/3e9488.png" height="24" width="42" /> <code class="highlighter-rouge">3e9488</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/449489.png" height="24" width="42" /> <code class="highlighter-rouge">449489</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/289e8e.png" height="24" width="42" /> <code class="highlighter-rouge">289e8e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/ffffff.png" height="24" width="42" /> <code class="highlighter-rouge">ffffff</code> </td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/4886ab.png" height="24" width="42" /> <code class="highlighter-rouge">4886ab</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/4f88ab.png" height="24" width="42" /> <code class="highlighter-rouge">4f88ab</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/3292c9.png" height="24" width="42" /> <code class="highlighter-rouge">3292c9</code></td>
     </tr>
     <tr>
       <td></td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/9673ab.png" height="24" width="42" /> <code class="highlighter-rouge">9673ab</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/936aab.png" height="24" width="42" /> <code class="highlighter-rouge">936aab</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/9f54c9.png" height="24" width="42" /> <code class="highlighter-rouge">9f54c9</code></td>
     </tr>
     <tr>
       <td></td>
-      <td style="text-align: center"><img src="http://www.colorhexa.com/b57988.png" height="24" width="42" /> <code class="highlighter-rouge">b57988</code> </td>
+      <td style="text-align: center"><img src="http://www.colorhexa.com/b57081.png" height="24" width="42" /> <code class="highlighter-rouge">b57081</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/e05e7f.png" height="24" width="42" /> <code class="highlighter-rouge">e05e7f</code></td>
     </tr>
   </tbody>
