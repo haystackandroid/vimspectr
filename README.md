@@ -311,7 +311,11 @@ done'
   <p>Base colours were determined by:</p>
   <ul>
     <li>selecting contrast ratios such that values of base colours of the greyscale theme align with 1/24 intervals</li>
-    <li>adding saturation to base colours of remaining themes, also observing 1/24 intervals</li>
+    <li>adding saturation to base colours of remaining themes, also observing 1/24 intervals
+      <ul>
+        <li>saturation rises as value falls</li>
+      </ul>
+    </li>
   </ul>
 
   <p>Accent colours were determined by:</p>
