@@ -1,3 +1,11 @@
+**Note: this repository is archived. If I continue developing the vimspectr concept in future, it will probably be in the form of a new repository with the themes rebuilt from scratch. In the meantime, you might want to check out my current active vim theme, [snow](https://github.com/nightsense/snow). If you really want to contact me with something regarding vimspectr, feel free to do so by opening an issue at the [snow repository](https://github.com/nightsense/snow).**
+
+.
+
+.
+
+.
+
 <h1 id="vimspectr">vimspectr</h1>
 
 <p>vimspectr is a set of <strong>26 vim themes</strong>, consisting of a dark/light pair for each of the following hues:</p>
